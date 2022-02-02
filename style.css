@@ -1,0 +1,47 @@
+:root {
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+    --text-primary: #eadad7;
+    --text-secondary: #b5838d;
+    --bg-primary: #6d6875;
+    --bg-secondary: #504345;
+}
+
+body {
+    color: #eadad7;
+    background-color: #504345;
+    margin: 0;
+    padding:0;
+}
+
+body::-webkit-scrollbar{
+    width:0.25rem
+}
+
+body::-webkit-scrollbar-track{
+    background-color:#b5838d
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color:#eadad7
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+.navbar {
+    position: fixed;
+    background-color: var(--bg-primary);
+    transition: width 200ms ease;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
