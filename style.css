@@ -80,13 +80,13 @@ main {
 .header-img {
     min-height:100%;
     width: 100%;
-    background:image("images_and_videos/header.png")
+    background:image("Images_and_videos/header.png")
   }
 
 .footer-img {
     min-height:100%;
     width: 100%;
-    background:image("images_and_videos/footer.png")
+    background:image("Images_and_videos/footer.png")
   }
 
 
