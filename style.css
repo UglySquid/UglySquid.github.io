@@ -26,18 +26,12 @@ main {
 }
 
 .header-img {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: row1-start;
     min-height:100%;
     width: 100%;
     background-image: url("/home/christine/Documents/Coding/UglySquid.github.io/Images_and_videos/header.png")
   }
 
 .footer-img {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 3-start;
     min-height:100%;
     width: 100%;
     background-image: url("/home/christine/Documents/Coding/UglySquid.github.io/Images_and_videos/footer.png/footer.png")
