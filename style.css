@@ -31,7 +31,7 @@ main {
     grid-row-start: row1-start;
     min-height:100%;
     width: 100%;
-    background:image("Images_and_videos/header.png")
+    background-image: url("Images_and_videos/header.png")
   }
 
 .footer-img {
@@ -40,7 +40,7 @@ main {
     grid-row-start: 3-start;
     min-height:100%;
     width: 100%;
-    background:image("Images_and_videos/footer.png")
+    background-image:url("Images_and_videos/footer.png")
   }
 
 .navbar {
