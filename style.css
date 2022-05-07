@@ -27,13 +27,11 @@ main {
 
 .header-img {
     min-height:100%;
-    width: 100%;
     background-image: url("/home/christine/Documents/Coding/UglySquid.github.io/Images_and_videos/header.png")
   }
 
 .footer-img {
     min-height:100%;
-    width: 100%;
     background-image: url("/home/christine/Documents/Coding/UglySquid.github.io/Images_and_videos/footer.png/footer.png")
   }
 
