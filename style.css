@@ -20,7 +20,6 @@ body {
 main {
     margin-left: 5rem;
     padding: 1rem
-
 }
 
 .navbar {
@@ -28,6 +27,7 @@ main {
     height: 100vh;
     position: fixed;
     color: var(--light-blue);
+    overflow: scroll;
 }
 
 .navbar-nav {
@@ -37,12 +37,19 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
+}
+
+.nav-item {
+    width: 100%;
 }
 
 .nav-link {
     display: flex;
     align-items: center;
+    height: 5rem;
     width: 16rem;
+    color: var(--light-blue);
 }
 
 .link-text {
@@ -57,7 +64,7 @@ main {
 
 .logo {
     font-family: 'Press Start 2P', cursive;
-    margin-botton: 1rem;
+    margin-bottom: 1rem;
     text-align: center;
     color: var(--light-pink);
     font-size: 120px;
