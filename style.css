@@ -12,8 +12,8 @@
 
 body {
     display: grid;
-    grid-column-start: 2;
-    grid-column-end: 4;
+    max-width: 100%;
+    overflow-x: hidden;
     background-color: var(--dark-blue);
     color:var(--dark-blue);
     margin: 0;
