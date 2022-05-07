@@ -70,9 +70,10 @@ main {
     transform: rotate(-180deg)
 }
 
-img {
-    height:0;
+.header-img {
     min-height:100%;
+    width: 100%;
+    background:image("images_and_videos/header.png")
   }
 
 
