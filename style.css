@@ -1,76 +1,48 @@
 :root {
     font-size: 16px;
-    --light-pink: #ffdfe8;
-    --dark-pink: #b48fa4;
-    --lighter-blue:#b4d5ff;
-    --light-blue: #9eb7e1;
-    --dark-blue: #7b8eaf;
-    --section-padding: 150px;
+    --beige: #ffecc;
+    --brown: #280e0b;
     text-decoration: none;
     list-style: none;
 }
 
 body {
-    margin: 0;
     min-height: 100vh;
 }
 
-.page {
+.page-wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: var(--dark-blue);
-    color:var(--dark-blue);
-    margin: 0;
-    padding: 0;
+    grid-template-areas: "navi navi navi navi navi"
+                         "head head head head head"
+                         "side main main main side"
+                         "foot foot foot foot foot";
+    background-color: var(--beige);
 }
 
-main {
-    margin: 15rem;
-    padding: 15rem;
-}
-
-.video-wrapper {
-    /* Telling our absolute positioned video to 
-    be relative to this element */
-    position: relative;
-  
-    width: 400px;
-    height: 200px;
-  
-    /* Will not allow the video to overflow the 
-    container */
-    overflow: hidden;
-  
-    /* Centering the container's content vertically 
-    and horizontally */
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.header-wrapper {
+    grid-area: head;
   }
-  
-.footer-img {
-    display: grid;
-    left: 2;
-    bottom: 0;
-    right: 0;
+
+.footer-wrapper {
+    grid-area: foot;
     min-height:100%;
+    /**force the width of the image to extend all the way**/
     background-image: url("/home/christine/Documents/Coding/UglySquid.github.io/Images_and_videos/footer.png/footer.png")
   }
 
 .navbar {
-    display:grid;
-    flex-direction: column;
-    justify-content: space-evenly;
+    grid-area: navi;
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
     position: fixed;
-    background-color: var(--light-blue);
-    min-height: 100%;
+    background-color: var(--brown);
+    min-height: 50px;
     width: 15rem;
 }
 
 .navbar-nav {
     list-style-type: none;
-    display: block;
     align-items: center;
     height: 100%;
 }
@@ -86,24 +58,38 @@ main {
     font-family: 'Press Start 2P', cursive;
     margin-bottom: 1rem;
     text-align: center;
-    color: var(--light-pink);
+    color: var(--beige);
     font-size: 48px;
 }
 
 .nav-link {
-    display: flex;
-    align-items: center;
-    width: 16rem;
-    color: var(--light-blue);
+    color: var(--beige);
 }
 
 .link-text {
     display: block;
-    color: var(--lighter-blue);
+    color: var(--beige);
+}
+
+.navbar:hover .navbar-nav {
+    color: var(--beige);
 }
 
 .navbar:hover .link-text {
-    background-color: var(--light-pink);
+    background-color: var(--brown);
+}
+
+main {
+    margin: 50px;
+    padding: 50px;
+}
+
+.content {
+    grid-area: main;
+}
+
+.side-stuff {
+    grid-area: side;
 }
 
 title {
