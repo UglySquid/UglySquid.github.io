@@ -1,6 +1,6 @@
 :root {
     font-size: 16px;
-    --beige: #ffecc;
+    --beige: #ffecc9;
     --brown: #280e0b;
     text-decoration: none;
     list-style: none;
@@ -8,41 +8,59 @@
 
 body {
     min-height: 100vh;
+    margin: 0px;
+    
 }
 
-.page-wrapper{
+#page {
     display: grid;
-    grid-template-areas: "navi navi navi navi navi"
-                         "head head head head head"
-                         "side main main main side"
-                         "foot foot foot foot foot";
-    background-color: var(--beige);
+    width: 100%;
+    height: 250px;
+    grid-template-areas: "navi head head head head"
+                         "navi main main main main"
+                         "navi foot foot foot foot";
+    grid-template-rows: auto 500px 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+
+#page > header {
+    grid-area: head;
+  }
+  
+  #page > nav {
+    grid-area: navi;
+    background-color: var(--brown);
+  }
+  
+  #page > main {
+    grid-area: main;
+    background-color: var(--beige);
+  }
+  
+  #page > footer {
+    grid-area: foot;
+  }
 
 .header-wrapper {
     grid-area: head;
   }
 
 .footer-wrapper {
-    grid-area: foot;
-    min-height:100%;
-    /**force the width of the image to extend all the way**/
-    background-image: url("/home/christine/Documents/Coding/UglySquid.github.io/Images_and_videos/footer.png/footer.png")
+    background-image: url("/home/christine/Documents/Coding/UglySquid.github.io/Images_and_videos/footer.png/footer.png");
   }
 
 .navbar {
-    grid-area: navi;
     display:flex;
-    flex-direction: row;
-    justify-content: right;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     position: fixed;
     background-color: var(--brown);
     min-height: 50px;
-    width: 15rem;
 }
 
 .navbar-nav {
-    list-style-type: none;
+    list-style: none;
     align-items: center;
     height: 100%;
 }
@@ -64,9 +82,12 @@ body {
 
 .nav-link {
     color: var(--beige);
+    display: inline-block;
+    padding: 0px 20px;
 }
 
 .link-text {
+    transition: all 0.3s ease 0s;
     display: block;
     color: var(--beige);
 }
@@ -79,18 +100,6 @@ body {
     background-color: var(--brown);
 }
 
-main {
-    margin: 50px;
-    padding: 50px;
-}
-
-.content {
-    grid-area: main;
-}
-
-.side-stuff {
-    grid-area: side;
-}
 
 title {
     font-family: 'Press Start 2P', cursive;
