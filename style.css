@@ -60,29 +60,23 @@ body {
 
 .navbar-nav {
     list-style: none;
-    align-items: flex-end;
+    align-items: center;
     height: 100%;
 }
 
 .nav-item {
-    width: 100%;
     display: block;
-    padding: 1rem;
     text-align: center;
 }
 
 .logo {
-    font-family: 'Press Start 2P', cursive;
-    margin-bottom: auto;
-    text-align: center;
-    color: var(--beige);
-    font-size: 48px;
+    width: 150px;
+    height: 150px;
 }
 
 .nav-link {
     color: var(--beige);
     display: inline-block;
-    padding: 0px 20px;
 }
 
 .link-text {
