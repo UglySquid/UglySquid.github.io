@@ -11,9 +11,13 @@
 }
 
 body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.page {
     display: grid;
-    max-width: 100%;
-    overflow-x: hidden;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: var(--dark-blue);
     color:var(--dark-blue);
     margin: 0;
@@ -25,15 +29,26 @@ main {
     padding: 15rem;
 }
 
-.header-img {
-    display: grid;
-    left: 2;
-    top: 0;
-    right: 0;
-    min-height:100%;
-    background-image: url("/home/christine/Documents/Coding/UglySquid.github.io/Images_and_videos/header.png")
+.video-wrapper {
+    /* Telling our absolute positioned video to 
+    be relative to this element */
+    position: relative;
+  
+    width: 400px;
+    height: 200px;
+  
+    /* Will not allow the video to overflow the 
+    container */
+    overflow: hidden;
+  
+    /* Centering the container's content vertically 
+    and horizontally */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-
+  
 .footer-img {
     display: grid;
     left: 2;
@@ -88,7 +103,7 @@ main {
 }
 
 .navbar:hover .link-text {
-    color: var(--light-pink);
+    background-color: var(--light-pink);
 }
 
 title {
