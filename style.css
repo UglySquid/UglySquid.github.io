@@ -51,17 +51,16 @@ body {
 
 .navbar {
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     position: fixed;
     background-color: var(--brown);
-    min-height: 50px;
 }
 
 .navbar-nav {
     list-style: none;
-    align-items: center;
+    align-items: flex-end;
     height: 100%;
 }
 
@@ -74,7 +73,7 @@ body {
 
 .logo {
     font-family: 'Press Start 2P', cursive;
-    margin-bottom: 1rem;
+    margin-bottom: auto;
     text-align: center;
     color: var(--beige);
     font-size: 48px;
