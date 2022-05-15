@@ -54,6 +54,7 @@ body {
     border-right: 22px solid var(--brown);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     position: fixed;
     height: 100%;
@@ -62,18 +63,16 @@ body {
 }
 
 .nav-item {
-    align-items: center;
     width: 100%;
 }
 
 .logo {
     width: 210px;
     height: 210px;
+    margin-bottom: 50px;
 }
 
 .nav-link {
-    display: flex;
-    align-items: center;
     color: var(--brown);
     text-decoration: none;
 }
@@ -126,8 +125,9 @@ body {
     list-style: none;
     text-decoration: none;
     display: flex;
+    flex-direction: space-evenly;
+    justify-content: space-evenly;
     align-items: center;
-    flex-direction: row;
 }
 
 .social-icon {
