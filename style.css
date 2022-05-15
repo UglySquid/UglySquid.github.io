@@ -90,17 +90,32 @@ body {
 }
 
 .gallery {
-    padding-left: 80px;
-    padding-right: 80px;
+    grid-area: main;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 80px;
 }
 
 .art-piece {
     border: 22px solid var(--brown);
-    margin-bottom: 80px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .art-piece-img {
-    margin: 10px
+    margin: 10px;
+    max-width: 270px;
+    max-height: 800px;
+}
+
+.art-piece-text {
+    font-family: 'Press Start 2P';
+    font-size: 16px;
+    color: var(--brown);
+    text-align: center;
 }
 
 .bio-contact-wrapper {
