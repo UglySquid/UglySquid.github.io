@@ -85,8 +85,8 @@ body {
     display: block;
 }
 
-.navbar-nav:hover .nav-link {
-    color: var(--brown);
+.nav-item:hover .nav-link {
+    opacity: 0.5;
 }
 
 .gallery {
@@ -96,6 +96,7 @@ body {
 
 .art-piece {
     border: 22px solid var(--brown);
+    margin-bottom: 80px;
 }
 
 .art-piece-img {
@@ -111,6 +112,7 @@ body {
     border: 22px solid var(--brown);
     padding: 50px;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .bio-contact-text {
@@ -133,6 +135,14 @@ body {
 .social-icon {
     width: 100%;
     margin: 30px ;
+}
+
+.social-icon-link {
+    text-decoration: none;
+}
+
+.social-icon:hover .social-icon-link {
+    opacity: 0.5;
 }
 
 title {
