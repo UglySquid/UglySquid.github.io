@@ -19,7 +19,7 @@ body {
     grid-template-areas: "navi head head head head"
                          "navi main main main main"
                          "navi foot foot foot foot";
-    grid-template-rows: auto 500px 1fr;
+    grid-template-rows: auto auto 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
@@ -27,72 +27,113 @@ body {
     grid-area: head;
   }
   
-  #page > nav {
+#page > nav {
     grid-area: navi;
-    background-color: var(--brown);
+    justify-content: center;
   }
   
-  #page > main {
+#page > main {
     grid-area: main;
     background-color: var(--beige);
+    padding-bottom: 22px;
   }
   
-  #page > footer {
+#page > footer {
     grid-area: foot;
-  }
-
-.header-wrapper {
-    grid-area: head;
-  }
-
-.footer-wrapper {
-    background-image: url("/home/christine/Documents/Coding/UglySquid.github.io/Images_and_videos/footer.png/footer.png");
-  }
-
-.navbar {
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    position: fixed;
+    font-family: Press Start 2P;
+    font-size: 16px;
+    text-align: right;
     background-color: var(--brown);
-}
+    padding-right: 20px;
+  }
 
 .navbar-nav {
     list-style: none;
+    padding: 10px;
+    margin: 0;
+    border-right: 22px solid var(--brown);
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    position: fixed;
     height: 100%;
+    width: 1fr;
+    background-color: var(--beige);
 }
 
 .nav-item {
-    display: block;
-    text-align: center;
+    align-items: center;
+    width: 100%;
 }
 
 .logo {
-    width: 150px;
-    height: 150px;
+    width: 210px;
+    height: 210px;
 }
 
 .nav-link {
-    color: var(--beige);
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    color: var(--brown);
+    text-decoration: none;
 }
 
 .link-text {
-    transition: all 0.3s ease 0s;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    text-align: center;
+    color: var(--brown);
     display: block;
-    color: var(--beige);
 }
 
-.navbar:hover .navbar-nav {
-    color: var(--beige);
+.navbar-nav:hover .nav-link {
+    color: var(--brown);
 }
 
-.navbar:hover .link-text {
-    background-color: var(--brown);
+.gallery {
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
+.art-piece {
+    border: 22px solid var(--brown);
+}
+
+.art-piece-img {
+    margin: 10px
+}
+
+.bio-contact-wrapper {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.bio-contact-info {
+    border: 22px solid var(--brown);
+    align-items: center;
+}
+
+.bio-contact-text {
+    font-family: 'Press Start 2P';
+    font-size: 18px;
+    color: var(--brown);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.socials {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.social-icon {
+    width: 100%;
+    margin: 50px ;
+}
 
 title {
     font-family: 'Press Start 2P', cursive;
@@ -102,9 +143,4 @@ title {
 h1 {
     font-family: 'Alfa Slab One', cursive;
     font-size: 48 px;
-}
-
-p {
-    font-family: 'Armata', sans-serif;
-    font-size: 16 px;
 }
