@@ -47,6 +47,10 @@ body {
     padding-right: 20px;
   }
 
+.header-wrapper {
+    min-width: 0;
+}
+
 .navbar-nav {
     list-style: none;
     padding: 10px;
@@ -93,7 +97,8 @@ body {
     grid-area: main;
     display: grid;
     gap: 30px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto) );
+    grid-auto-flow: dense;
     padding: 80px;
 }
 
@@ -103,12 +108,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-width: 0;
+    overflow-x: hidden;
 }
 
 .art-piece-img {
     margin: 10px;
-    max-width: 270px;
-    max-height: 800px;
+    min-width: 0;
+    max-width: 200px;
+    object-fit: scale-down;
 }
 
 .art-piece-text {
