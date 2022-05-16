@@ -99,7 +99,8 @@ body {
     gap: 30px;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto) );
     grid-auto-flow: dense;
-    padding: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .art-piece {
@@ -130,7 +131,6 @@ body {
     grid-area: main;
     padding-left: 80px;
     padding-right: 80px;
-    width: 3.5fr;
 }
 
 .bio-contact-info {
@@ -139,7 +139,7 @@ body {
     padding: 50px;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 1000px;
     min-width: 0;
 }
 
@@ -154,14 +154,16 @@ body {
 .socials {
     list-style: none;
     text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, minmax(100px, 100px) );
+    grid-auto-flow: dense;
+    margin: 0;
+    padding: 0;
 }
 
 .social-icon {
-    min-width: 100%;
+    max-width: 100px;
     margin: 10px ;
 }
 
@@ -182,3 +184,5 @@ h1 {
     font-family: 'Alfa Slab One', cursive;
     font-size: 48 px;
 }
+
+
