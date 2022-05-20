@@ -9,7 +9,7 @@
 body {
     min-height: 100vh;
     margin: 0px;
-    
+    padding: 0px;
 }
 
 #page {
@@ -19,8 +19,8 @@ body {
     grid-template-areas: "navi head head head head"
                          "navi main main main main"
                          "navi foot foot foot foot";
-    grid-template-rows: auto auto 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto 100px;
+    grid-template-columns: 210px 1fr 1fr 1fr 1fr;
 }
 
 #page > header {
@@ -35,7 +35,6 @@ body {
 #page > main {
     grid-area: main;
     background-color: var(--beige);
-    padding-bottom: 22px;
   }
   
 #page > footer {
@@ -63,7 +62,7 @@ body {
     align-items: center;
     position: fixed;
     height: 100%;
-    width: 1fr;
+    width: 210px;
     background-color: var(--beige);
 }
 
@@ -100,6 +99,8 @@ body {
     gap: 30px;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto) );
     grid-auto-flow: dense;
+    margin: 0px;
+    padding-bottom: 22px;
     padding-left: 80px;
     padding-right: 80px;
 }
@@ -130,8 +131,8 @@ body {
 
 .bio-contact-wrapper {
     grid-area: main;
-    padding-left: 80px;
-    padding-right: 80px;
+    margin: 0;
+    padding-bottom: 22px;
 }
 
 .bio-contact-info {
