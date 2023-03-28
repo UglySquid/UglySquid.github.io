@@ -271,8 +271,9 @@ transform: scale(0.95) rotateZ(1.7deg);
 
 .footer marquee {
     margin: 0 auto;
-    position: relative;
-    width: 100%;
+    position: absolute;
+    max-width: 100%;
+    overflow-x: hidden;
     overflow: hidden;
     height: 200px;
 }
@@ -281,14 +282,15 @@ transform: scale(0.95) rotateZ(1.7deg);
     position: absolute;
     white-space: nowrap;
     will-change: transform;
-    animation: marquee 10s linear infinite;
+    animation: marquee 30s linear infinite;
     font-size: 100pt;
     font-family: 'Major Mono Display', monospace;
+    max-width: 100%;
     overflow-x: hidden;
 }
 
 @keyframes marquee {
     from { transform: translateX(0); }
-    to { transform: translateX(-30%);}
+    to { transform: translateX(-50%);}
 }
 
