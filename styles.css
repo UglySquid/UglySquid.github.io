@@ -153,7 +153,6 @@ a:hover, a:active, a:focus {
     flex-direction: columns;
     justify-content: center;
     flex-direction: column;
-    overflow: hidden;
 }
 
 .works-text-box {
@@ -196,11 +195,29 @@ a:hover, a:active, a:focus {
   
 .card:hover {
 border: 1px solid #826644;
-transform: scale(1.1);
+transform: scale(1.6);
 }
 
 .card:active {
 transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.card.open {
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
+    z-index: 2;
+    display:block;
+    transition: width 1s;
+
+}
+
+.card.open .inner{
+    padding:30px;
+    margin-left:15px;
+    margin-right:15px;
+    background-color: red;
+
 }
 
 .about-me-container {
