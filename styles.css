@@ -266,14 +266,13 @@ transform: scale(0.95) rotateZ(1.7deg);
     overflow-x: hidden;
     vertical-align: middle;
     height: 200px;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .footer marquee {
     margin: 0 auto;
     position: absolute;
     max-width: 100%;
-    overflow-x: hidden;
     overflow: hidden;
     height: 200px;
 }
@@ -286,11 +285,11 @@ transform: scale(0.95) rotateZ(1.7deg);
     font-size: 100pt;
     font-family: 'Major Mono Display', monospace;
     max-width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
-@keyframes marquee {
+/* @keyframes marquee {
     from { transform: translateX(0); }
     to { transform: translateX(-50%);}
-}
+} */
 
