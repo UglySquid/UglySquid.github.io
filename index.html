@@ -1,113 +1,173 @@
+
+<!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport content="with=device-width, initial-scale=1.0>
-    <title>Chris's Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="Images_and_videos/icon.png">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Armata&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+    <title>Christine's Webdev Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/assets/temp-star.png">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet"> 
+    <script>
+        window.smoothScroll = function(target) {
+        var scrollContainer = target;
+        do { //find scroll container
+            scrollContainer = scrollContainer.parentNode;
+            if (!scrollContainer) return;
+            scrollContainer.scrollTop += 1;
+        } while (scrollContainer.scrollTop == 0);
+
+        var targetY = 0;
+        do { //find the top of target relatively to the container
+            if (target == scrollContainer) break;
+            targetY += target.offsetTop;
+        } while (target = target.offsetParent);
+
+        scroll = function(c, a, b, i) {
+            i++; if (i > 30) return;
+            c.scrollTop = a + (b - a) / 30 * i;
+            setTimeout(function(){ scroll(c, a, b, i); }, 20);
+        }
+        // start scrolling
+        scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+    }
+
+    </script>
+
+    <script>
+        function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 150;
+            if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+            } else {
+            reveals[i].classList.remove("active");
+            }
+        }
+        }
+
+        window.addEventListener("scroll", reveal);
+
+        // To check the scroll position on page load
+        reveal();
+    </script>
+    
 </head>
 
-<body id="page">
-        <header>
-            <div class="header-wrapper">
-                <video width="100%" autoplay muted loop>
-                    <source src="Images_and_videos/header.mp4" type="video/mp4">
-                    Your browser does not support HTML5 video.
-                </video>
-            </div>
-        </header>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul id="menu">
+                <li class="button">
+                    <button type="button" onclick="smoothScroll(document.getElementById('works'))">
+                        WORKS
+                    </button>
+                </li>
+                <li class="button">
+                    <button type="button" onclick="smoothScroll(document.getElementById('about'))">
+                        ABOUT ME
+                    </button>
+                </li>
+                <li class="button">
+                    <button type="button" onclick="smoothScroll(document.getElementById('contact'))">
+                        CONTACT ME
+                    </button>
+                </li>
+            </ul>
+        </div>
 
-        <nav>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">
-                            <img src="Images_and_videos/icon.png" class="logo">
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="bio-contact.html" class="nav-link">
-                            <span class="link-text">===
-                                                    <br>bio 
-                                                    <br>+ 
-                                                    <br>contact
-                                                    <br>=======</span>
-                        </a>
-                    </li>
-                </ul>
-        </nav>
+        <div class="left-side">
+            <div class="line"></div>
+            <h2>Welcome! Hope you enjoy your stay here! </h2>
+            <div class="line"></div>
+            <h2>Welcome! Hope you enjoy your stay here! </h2>
+            <div class="line"></div>
+            <h2>Welcome! Hope you enjoy your stay here! </h2>
+        </div>
+
+        <div class="right-side">
+            <h2>Welcome! Hope you enjoy your stay here! </h2>
+            <div class="line"></div>
+            <h2>Welcome! Hope you enjoy your stay here! </h2>
+            <div class="line"></div>
+            <div class="line"></div>
+            <h2>Welcome! Hope you enjoy your stay here! </h2>
+        </div>
+
+        <div class="header">
+            <img src="assets/temp-logo.png" style="width:100%;height:auto;">
+        </div>
+
+        <div class="header">
+            <script src="./js/scripts.js" type="module"></script>
+        </div>
+
+        <div class="works-container reveal" id="works">
+            <div class="works-text-box">
+                <h1>WORKS</h1>
+            </div>
+
+            <div class="card-grid">
+                <div class="card">
+                    <h1>1</h1>
+                </div>
+                <div class="card">
+                    <h1>2</h1>
+                </div>
+                <div class="card">
+                    <h1>3</h1>
+                </div>
+            </div>
+        </div>
         
-        <main class="gallery">
-            <div class=art-piece>
-                <img src="Images_and_videos/cathehe.gif" class="art-piece-img">
-                <a href="https://pin.it/46XOpWW" class="art-piece-text">
-                    CAT - 2022 
-                    <br>(inspired by pinterest)
-                </a>
+        <div class="about-me-container reveal" id="about">
+            <div class="about-me-image">
+                <img src="assets/temp-star.png" style="width:400px;height:auto;">
             </div>
-            <div class=art-piece>
-                <img src="Images_and_videos/benchlmao.jpg" class="art-piece-img">
-                <p class="art-piece-text">
-                    BENCH. - 2022 
-                    <br>(Original -Reference Unavailable)
-                </p>
+            <div class="about-me-textbox">
+                <h1>ABOUT ME</h1>
+                <p> Milliken Mills High School Student</p>
+                <p>Dabbles too oftMillikenen in Blender</p>
+                <p>Likes UI/UX design too much </p>
+                <p>Likes to read</p>
+                <p>Currently Assistant Teacher at Spirit of Math</p>
+                <p>Currently Content Exec for MMHS MathSoc</p>
+                <p>Currently Secretary for MMHS Robotics </p>
             </div>
-            <div class=art-piece>
-                <img src="Images_and_videos/bigstatuething.jpg" class="art-piece-img">
-                <p class="art-piece-text">
-                    Statue !!! - 2022 
-                    <br>(inspired by Genshin Impact)
-                </p>
+        </div>
+
+        <div class="contact-me-container reveal"  id="contact">
+            <div class="contact-me-textbox">
+                <h1>CONTACT ME</h1>
+                <p>Email: christine.wei.63@gmail.com</p>
+                <p>Phone: 437-333-2890</p>
+                <p>Instagram: @wo_ochy</p>
+                <p>Linkedin: https://www.linkedin.com/in/christine-wei-is-awesome/ </p>
+            </div>  
+            <div class="contact-me-image">
+                <img src="assets/temp-ball.png" style="width:400px;height:auto;">
             </div>
-            <div class=art-piece>
-                <img src="Images_and_videos/father-lmao.jpg" class="art-piece-img">
-                <p class="art-piece-text">
-                    My dad :) - 2022 
-                    <br>(Original -Reference Unavailable)
-                </p>
             </div>
-            <div class=art-piece>
-                <img src="Images_and_videos/self-portrait.jpg" class="art-piece-img">
-                <p class="art-piece-text">
-                    Really quick self-portrait sketch - 2021 
-                    <br>(Original -Reference Unavailable)
-                </p>
+        </div>
+
+        <div class="footer">
+            <div class="marquee">
+                <div class="track">
+                    <span>
+                        BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE -&nbsp;
+                    </span>
+                </div>
             </div>
-            <div class=art-piece>
-                <img src="Images_and_videos/khoudiadiopdrawing.png" class="art-piece-img">
-                <p class="art-piece-text">
-                    Khoudia Diop - 2021 
-                    <br>(Original -Reference Unavailable)
-                </p>
-            </div>
-            <div class=art-piece>
-                <img src="Images_and_videos/portrait1.jpg" class="art-piece-img">
-                <p class="art-piece-text">
-                    Portrait of unknown person - 2020 
-                    <br>(Original -Reference Unavailable)
-                </p>
-            </div>
-            <div class=art-piece>
-                <img src="Images_and_videos/portrait2.jpg" class="art-piece-img">
-                <p class="art-piece-text">
-                    Portrait of unknown person - 2020 
-                    <br>(Original -Reference Unavailable)
-                </p>
-            </div>
-            <div class=art-piece>
-                <img src="Images_and_videos/portrait3.jpg" class="art-piece-img">
-                <p class="art-piece-text">
-                    Portrait of unknown person - 2020 
-                    <br>(Original -Reference Unavailable)
-                </p>
-            </div>
-        </main>
-        
-        <footer>
-            <p>
-                GATO ROBOTO - COFFEE STAIN PALETTE (by PureASbestos)
-                <br>Ⓒ Christine Wei 
-            </p>
-        </footer>
-        
-</body> 
+        </div>
+    </div>
+</body>
 </html>
