@@ -127,7 +127,7 @@ a:hover, a:active, a:focus {
 
 .line {
     border-left: 1px solid white;
-    height: 500px;
+    height: 600px;
     justify-self: right;
   }
 
@@ -210,6 +210,7 @@ transform: scale(0.95) rotateZ(1.7deg);
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    justify-items: center;
 
     gap: 1.5rem;
     padding-block: 2rem;
@@ -237,7 +238,8 @@ transform: scale(0.95) rotateZ(1.7deg);
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-self: center;
+    justify-content: center;
+    justify-items: center;
 
     gap: 1.5rem;
     padding-block: 2rem;
@@ -245,8 +247,7 @@ transform: scale(0.95) rotateZ(1.7deg);
 }
 
 .contact-me-textbox {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    width: 400px;
 }
 
 .contact-me-image {
