@@ -266,6 +266,7 @@ transform: scale(0.95) rotateZ(1.7deg);
     overflow-x: hidden;
     vertical-align: middle;
     height: 200px;
+    overflow-x: hidden;
 }
 
 .footer marquee {
@@ -283,6 +284,7 @@ transform: scale(0.95) rotateZ(1.7deg);
     animation: marquee 10s linear infinite;
     font-size: 100pt;
     font-family: 'Major Mono Display', monospace;
+    overflow-x: hidden;
 }
 
 @keyframes marquee {
