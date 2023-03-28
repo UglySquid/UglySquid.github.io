@@ -17,11 +17,24 @@ h2 {
 }
 
 p {
-    font-family: 'Major Mono Display', monospace;
-    font-size: 10pt;
+    font-family: 'Lato', sans-serif;
+    font-size: 14pt;
+    font-style: italic;
     line-height: 15pt;
     color: white;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover, a:active, a:focus {
+    color: #80461B;
+  }
 
 .reveal{
     position: relative;
@@ -168,14 +181,17 @@ p {
     box-shadow: 12px 17px 51px #826644;
     backdrop-filter: blur(6px);
     border-radius: 17px;
-    text-align: center;
     cursor: pointer;
     transition: all 0.5s;
+
+
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     user-select: none;
     font-weight: bolder;
+    text-align: center;
 }
   
 .card:hover {

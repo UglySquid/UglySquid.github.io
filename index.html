@@ -13,7 +13,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Major+Mono+Display&display=swap" rel="stylesheet">
+
     <script>
         window.smoothScroll = function(target) {
         var scrollContainer = target;
@@ -68,6 +69,11 @@
         <div class="navbar">
             <ul id="menu">
                 <li class="button">
+                    <button type="button" onclick="smoothScroll(document.getElementById('header'))">
+                        TOP
+                    </button>
+                </li>
+                <li class="button">
                     <button type="button" onclick="smoothScroll(document.getElementById('works'))">
                         WORKS
                     </button>
@@ -103,7 +109,7 @@
             <h2>Welcome! Hope you enjoy your stay here! </h2>
         </div>
 
-        <div class="header">
+        <div class="header" id="header">
             <img src="assets/temp-logo.png" style="width:100%;height:auto;">
         </div>
 
@@ -118,13 +124,25 @@
 
             <div class="card-grid">
                 <div class="card">
-                    <h1>1</h1>
+                    <video width="200" height="200" autoplay muted loop>
+                        <source src="assets/meds-bottle.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video> 
+                    <h2>Meds Bottle</h2>
                 </div>
                 <div class="card">
-                    <h1>2</h1>
+                    <video width="200" height="200" autoplay muted loop>
+                        <source src="assets/meds-bottle.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video> 
+                    <h2>Meds Bottle</h2>
                 </div>
                 <div class="card">
-                    <h1>3</h1>
+                    <video width="200" height="200" autoplay muted loop>
+                        <source src="assets/meds-bottle.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video> 
+                    <h2>Meds Bottle</h2>
                 </div>
             </div>
         </div>
@@ -135,23 +153,36 @@
             </div>
             <div class="about-me-textbox">
                 <h1>ABOUT ME</h1>
-                <p> Milliken Mills High School Student</p>
-                <p>Dabbles too oftMillikenen in Blender</p>
-                <p>Likes UI/UX design too much </p>
-                <p>Likes to read</p>
-                <p>Currently Assistant Teacher at Spirit of Math</p>
-                <p>Currently Content Exec for MMHS MathSoc</p>
-                <p>Currently Secretary for MMHS Robotics </p>
+                <p>I'm a Milliken Mills High School student who dabbles too often with Blender and web design.</p>
+                
+                <p>
+                    I'm also currently Assistant Teacher at Spirit of Math 
+                    (my sole form of paid labor sadly - might you be of assistance?), 
+                    a content exec for MMHS MathSoc, 
+                    the secretary of MMHS Robotics, 
+                    and the animator for PERIOD. Ontario.
+                </p>
+                
+                <p>
+                    I'm working on implementing Three.JS into my website, 
+                    which is why I currently have screenshots of my blender models here.
+                </p>
             </div>
         </div>
 
-        <div class="contact-me-container reveal"  id="contact">
+        <div class="contact-me-container reveal">
             <div class="contact-me-textbox">
                 <h1>CONTACT ME</h1>
                 <p>Email: christine.wei.63@gmail.com</p>
                 <p>Phone: 437-333-2890</p>
                 <p>Instagram: @wo_ochy</p>
-                <p>Linkedin: https://www.linkedin.com/in/christine-wei-is-awesome/ </p>
+                <a href="https://www.linkedin.com/in/christine-wei-is-awesome/" target="_blank">
+                    <p>Linkedin (just click me) </p>
+                </a>
+                <p>
+                    Github: <a href="https://www.linkedin.com/in/christine-wei-is-awesome/" target="_blank"></a>
+                </p>
+                
             </div>  
             <div class="contact-me-image">
                 <img src="assets/temp-ball.png" style="width:400px;height:auto;">
@@ -159,11 +190,13 @@
             </div>
         </div>
 
-        <div class="footer">
+        <div class="footer" id="contact">
             <div class="marquee">
                 <div class="track">
                     <span>
+                        <a href="https://www.linkedin.com/in/christine-wei-is-awesome/" target="_blank">
                         BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE -&nbsp;
+                        </a>
                     </span>
                 </div>
             </div>
