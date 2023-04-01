@@ -336,6 +336,20 @@ transform: scale(0.95) rotateZ(1.7deg);
     width: 100%;
 }
 
+svg {
+    fill: transparent;
+    height: auto;
+    min-width: 100%;
+    transform-origin: center;
+    width: 100%;
+}
+
+text {
+    fill: white;
+    stroke: #826644;
+    min-width: 100%;
+}
+
 .footer {
     box-shadow: 0 2px 0 white inset;
     grid-area: 6 / 1 / 8 / 5;
@@ -369,6 +383,5 @@ transform: scale(0.95) rotateZ(1.7deg);
     from { transform: translateX(0); }
     to { transform: translateX(-50%);}
 }
-
 
   

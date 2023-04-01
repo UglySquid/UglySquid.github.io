@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
 
-    <title>Christine's Web Dev Portfolio</title>
+    <title>(testing) Christine's Web Dev Portfolio</title>
 
     <script 
     src="https://ajax.googleapis.com/ajax/libs/threejs/r84/three.min.js">
@@ -96,20 +96,20 @@
 
     <div class="left-side">
         <div class="line"></div>
-        <h2>Welcome! Hope you enjoy your stay here! </h2>
+        <h2>WELCOME! HOPE YOU ENJOY YOUR STAY HERE </h2>
         <div class="line"></div>
-        <h2>Welcome! Hope you enjoy your stay here! </h2>
+        <h2>WELCOME! HOPE YOU ENJOY YOUR STAY HERE </h2>
         <div class="line"></div>
         <div class="line"></div>
     </div>
 
     <div class="right-side">
-        <h2>Welcome! Hope you enjoy your stay here! </h2>
+        <h2>WELCOME! HOPE YOU ENJOY YOUR STAY HERE </h2>
         <div class="line"></div>
-        <h2>Welcome! Hope you enjoy your stay here! </h2>
+        <h2>WELCOME! HOPE YOU ENJOY YOUR STAY HERE </h2>
         <div class="line"></div>
         <div class="line"></div>
-        <h2>Welcome! Hope you enjoy your stay here! </h2>
+        <h2>WELCOME! HOPE YOU ENJOY YOUR STAY HERE </h2>
     </div>
 
     <div class="header" id="header">
@@ -170,13 +170,36 @@
     </div>
 
     <div class="contact-me-container reveal">
-        <h2 id="demo3">This text makes a complete rotation no matter how long it is. </h2>
+        <svg xmlns="http://www.w3.org/2000/svg" xml:lang="en"
+            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+            <title>Circular Text Path</title>
+            <style>
+                text {
+                    font-size: 47px;
+                    font-family: 'try_grtskbold_tera', sans-serif;
+                    font-weight: bold;
+                    font-variant: small-caps;
+                    stroke: white;
+                    stroke-width: 1.5px;
+                }
+            </style>
+            <defs>
+                <path id="textcircle"
+                    d="M250,400
+                        a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"
+                    transform="rotate(100,250,250)"/>
+            </defs>
+            <rect width="100%" height="100%" fill="none" />
+            <text>
+                <textPath xlink:href="#textcircle"
+                        aria-label="CONTACT ME - CONTACT ME -&amp;"
+                        textLength="942">&#160;CONTACT ME - CONTACT ME - &amp;</textPath>
+            </text>
+        </svg>
 
         <div class="contact-me-textbox" id=contact>
-            <h1>CONTACT ME</h1>
             <p>Email: christine.wei.63@gmail.com</p>
-            <p>Phone: 437-333-2890</p>
-            <p>Instagram: @wo_ochy</p>
+            <a href="https://www.instagram.com/wo_ochy/" target="_blank"><p>Instagram: @wo_ochy</p></a>
             <a href="https://www.linkedin.com/in/christine-wei-is-awesome/" target="_blank">
                 <p>Linkedin (just click me) </p>
             </a>
