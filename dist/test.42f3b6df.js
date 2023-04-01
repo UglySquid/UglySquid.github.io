@@ -560,7 +560,7 @@ function hmrAccept(bundle, id) {
 var _three = require("three");
 var _orbitControlsJs = require("three/examples/jsm/controls/OrbitControls.js");
 var _gltfloaderJs = require("three/examples/jsm/loaders/GLTFLoader.js");
-const monkeyUrl = new URL(require("93c94ee658695328"));
+const monkeyUrl = new URL(require("2dbd7d762ba2d870"));
 const renderer = new _three.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
@@ -568,10 +568,8 @@ const scene = new _three.Scene();
 const camera = new _three.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
 renderer.setClearColor(0xA3A3A3);
 const orbit = new (0, _orbitControlsJs.OrbitControls)(camera, renderer.domElement);
-camera.position.set(10, 10, 10);
+camera.position.set(0, 0, 100);
 orbit.update();
-const grid = new _three.GridHelper(30, 30);
-scene.add(grid);
 const assetLoader = new (0, _gltfloaderJs.GLTFLoader)();
 let mixer;
 assetLoader.load(monkeyUrl.href, function(gltf) {
@@ -603,7 +601,7 @@ window.addEventListener("resize", function() {
     renderer.setSize(window.innerWidth, window.innerHeight);
 });
 
-},{"three":"ktPTu","three/examples/jsm/controls/OrbitControls.js":"7mqRv","three/examples/jsm/loaders/GLTFLoader.js":"dVRsF","93c94ee658695328":"asphr"}],"ktPTu":[function(require,module,exports) {
+},{"three":"ktPTu","three/examples/jsm/controls/OrbitControls.js":"7mqRv","three/examples/jsm/loaders/GLTFLoader.js":"dVRsF","2dbd7d762ba2d870":"asphr"}],"ktPTu":[function(require,module,exports) {
 /**
  * @license
  * Copyright 2010-2023 Three.js Authors
@@ -33682,9 +33680,9 @@ function toCreasedNormals(geometry, creaseAngle = Math.PI / 3 /* 60 degrees */ )
 }
 
 },{"three":"ktPTu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"asphr":[function(require,module,exports) {
-module.exports = require("f3a4d47690c3dc0c").getBundleURL("5Tx7x") + "blend-christine-y2k.8c6bf63c.glb" + "?" + Date.now();
+module.exports = require("92675fb8102557f0").getBundleURL("5Tx7x") + "blend-christine-y2k.8c6bf63c.glb" + "?" + Date.now();
 
-},{"f3a4d47690c3dc0c":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+},{"92675fb8102557f0":"lgJ39"}],"lgJ39":[function(require,module,exports) {
 "use strict";
 var bundleURL = {};
 function getBundleURLCached(id) {

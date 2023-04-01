@@ -23,11 +23,8 @@ renderer.setClearColor(0xA3A3A3);
 
 const orbit = new OrbitControls(camera, renderer.domElement);
 
-camera.position.set(10, 10, 10);
+camera.position.set(0, 0, 100);
 orbit.update();
-
-const grid = new THREE.GridHelper(30, 30);
-scene.add(grid);
 
 const assetLoader = new GLTFLoader();
 
