@@ -92,6 +92,10 @@ a:hover, a:active, a:focus {
     text-shadow: #EEEE00 0 0 10px;
   }
 
+.spacer {
+    width: 400px;
+}
+
 .reveal{
     position: relative;
     transform: translateY(150px);
