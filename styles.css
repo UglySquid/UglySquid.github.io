@@ -204,12 +204,6 @@ a:hover, a:active, a:focus {
     min-height: 100%
 }
 
-arrow {
-    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg);
-    transform-style: preserve-3d;
-    will-change: transform;
-}
-
 .works-container {
     grid-area: 3 / 2 / 4 / 4;
 
