@@ -58,7 +58,7 @@ h1 {
     font-family: 'try_grtskbold_tera_slant', sans-serif;
     font-weight:normal;
     font-style:normal;
-    font-size: 30px;
+    font-size: 100pt;
     line-height: 20pt;
     text-shadow: #EEEE00 0 0 10px;
 }
@@ -342,12 +342,6 @@ svg {
     min-width: 100%;
     transform-origin: center;
     width: 100%;
-}
-
-text {
-    fill: white;
-    stroke: #826644;
-    min-width: 100%;
 }
 
 .footer {
