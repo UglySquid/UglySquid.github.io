@@ -11,6 +11,8 @@
     src="https://ajax.googleapis.com/ajax/libs/threejs/r84/three.min.js">
     </script>
 
+    <script import CircleType from `circletype`;/>
+
     <link rel="icon" type="image/x-icon" href="/assets/temp-star.png">
 
     <link rel="stylesheet" href="styles-holo.css">
@@ -92,6 +94,7 @@
             </li>
         </ul>
     </div>
+    
 
     <div class="left-side">
         <div class="line"></div>
@@ -169,7 +172,10 @@
     </div>
 
     <div class="contact-me-container reveal">
-        <div class="contact-me-textbox">
+        <h2 id="demo3">This text makes a complete rotation no matter how long it is. </h2>
+        new CircleType(document.getElementById('demo3'));
+
+        <div class="contact-me-textbox" id=contact>
             <h1>CONTACT ME</h1>
             <p>Email: christine.wei.63@gmail.com</p>
             <p>Phone: 437-333-2890</p>
@@ -187,13 +193,17 @@
         </div>
     </div>
 
-    <div class="footer" id="contact">
+    <div class=arrow-down> </div>
+
+    <div class="footer" id="footer">
         <div class="marquee">
             <div class="track">
                 <span>
                     <a href="https://www.linkedin.com/in/christine-wei-is-awesome/" target="_blank">
                     BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE - BYE -&nbsp;
                     </a>
+
+                    <Created with Three.js, circletype.js>
                 </span>
             </div>
         </div>
