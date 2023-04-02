@@ -88,10 +88,6 @@ a:visited {
     color: white;
 }
 
-a:hover, a:active, a:focus {
-    text-shadow: #EEEE00 0 0 10px;
-  }
-
 .spacer {
     width: 400px;
 }
@@ -329,6 +325,10 @@ transform: scale(0.95) rotateZ(1.7deg);
 .contact-me-textbox {
     width: 400px;
 }
+
+.contact-me-textbox a:hover, a:active, a:focus {
+    text-shadow: #EEEE00 0 0 10px;
+  }
 
 .contact-me-image {
     grid-column-start: 2;
