@@ -110,7 +110,7 @@ a:hover, a:active, a:focus {
     height: 100%;
     display: grid;
     grid-template-columns: 100px repeat(2, 2fr) 100px;
-    grid-template-rows: 100px repeat(4, 1fr) 70px;
+    grid-template-rows: 130px repeat(4, 1fr) 70px;
     gap: 1.5rem;
     }
 
