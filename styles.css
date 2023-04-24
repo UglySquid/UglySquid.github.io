@@ -326,6 +326,7 @@ transform: scale(0.95) rotateZ(1.7deg);
 
 .about-me-image img{
     width: 100%;
+    opacity: 0%;
 }
 
 .contact-me-container {
@@ -372,6 +373,10 @@ transform: scale(0.95) rotateZ(1.7deg);
     max-width: 100%;
     overflow: hidden;
     height: 200px;
+}
+
+.footer marquee a{
+    color: white;
 }
 
 .track {
