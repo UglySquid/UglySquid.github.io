@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-## Hi pookie~!
+## Hi pookie~! Here's a little about me:
 
 My name's Christine but you can call me Chris 😻
 
