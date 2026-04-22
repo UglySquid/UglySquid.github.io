@@ -4,10 +4,43 @@ title:  "Project Portfolio (High School)"
 date:   2026-04-22
 categories: jekyll update
 ---
+
+<style>
+  .slides-figure {
+    margin: 1.5rem 0;
+  }
+
+  .slides-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 59.27%; /* 569/960 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
+  }
+
+  .slides-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  .slides-figure figcaption {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 8px;
+  }
+
+</style>
+
 Here are some of my projects from before I started University
 
 <div class="timeline">
-
   <div class="tl-entry">
     <div class="tl-dot"></div>
     <p class="tl-date">July 2025</p>
