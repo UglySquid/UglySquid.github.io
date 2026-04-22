@@ -1,0 +1,41 @@
+---
+---
+@import "main";
+
+.timeline {
+    position: relative;
+    margin: 1rem 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 6px;
+    bottom: 6px;
+    width: 1.5px;
+    background: #ddd;
+}
+
+.tl-entry {
+    position: relative;
+    padding-left: 36px;
+    margin-bottom: 2.5rem;
+}
+
+.tl-dot {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #aaa;
+}
+
+.tl-date {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 4px;
+}

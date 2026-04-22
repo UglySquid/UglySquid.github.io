@@ -4,16 +4,14 @@ title: About
 permalink: /about/
 ---
 
-## Hi pookie~! Here's a little about me:
+## Hey! Here's a little about me:
 
 My name's Christine but you can call me Chris 😻
 
 I'm currently an engineering student at McMaster University!
 
 ## This website:
-It's cooler than a README file and I needed this repository to host things on GitHub Pages :sorriest_sorry_ever:
-
-If you expected something more, there might be some more in the future?1!!
+I started this repository to host things on GitHub Pages but have since started using it to store other things I might want to share. 
 
 <!-- no one asked but (in lbs.):
 BN: 95 
