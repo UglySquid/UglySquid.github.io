@@ -54,8 +54,9 @@ categories: jekyll update
     padding-bottom: 62%; /* 569/960 aspect ratio */
     height: 0;
     overflow: hidden;
-    border-radius: 8px;
+    border-radius: 12px;
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
+    background: white;
   }
 
   .slides-container iframe {
