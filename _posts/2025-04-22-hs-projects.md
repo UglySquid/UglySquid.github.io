@@ -51,7 +51,7 @@ categories: jekyll update
   .slides-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* 569/960 aspect ratio */
+    padding-bottom: 62%; /* 569/960 aspect ratio */
     height: 0;
     overflow: hidden;
     border-radius: 8px;
@@ -76,42 +76,42 @@ categories: jekyll update
 
 </style>
 
-Here are some of my projects from before I started University. Please click each picture/slide to go to the next one.
+Here are some of my projects from before I started University.
 
 <div class="timeline">
   <div class="tl-entry">
     <div class="tl-dot"></div>
     <p class="tl-date">July 2025</p>
-    <!-- <h2 class="tl-title">Make it Real (Autodesk Contest)</h2> -->
+    <h2 class="tl-title">Make it Real (Autodesk Contest)</h2>
     <figure class="slides-figure">
       <div class="slides-container">
         <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSQnbfIs2bZZjJif3JQMnuOWmT9UnFQpkIm7Y-OyrP0GbxdwE5j3QRDhn_Xv0GgYs0NDxjZePGiLvIt/pubembed?start=false&loop=true&delayms=3000&rm=minimal" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
       </div>
-      <figcaption>Make it Real — Autodesk Contest</figcaption>
+      <!-- <figcaption>Make it Real — Autodesk Contest</figcaption> -->
     </figure>
   </div>
 
   <div class="tl-entry">
     <div class="tl-dot"></div>
     <p class="tl-date">January 2025 – February 2025</p>
-    <!-- <h2 class="tl-title">Robot End Effector (FIRST Robotics)</h2> -->
+    <h2 class="tl-title">Robot End Effector (FIRST Robotics)</h2>
     <figure class="slides-figure">
       <div class="slides-container">
         <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSHBolERgB87Z8FpHHxuavxRaRZHeFrLYbYMATR-cGsE0pdGnIO2Jjcn2fgxb0fkA5OtHZsV5qqJelP/pubembed?start=false&loop=true&delayms=3000&rm=minimal" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
       </div>
-      <figcaption>Robot End Effector — FIRST Robotics</figcaption>
+      <!-- <figcaption>Robot End Effector — FIRST Robotics</figcaption> -->
     </figure>
   </div>
 
   <div class="tl-entry">
     <div class="tl-dot"></div>
     <p class="tl-date">August 2024 – September 2024</p>
-    <!-- <h2 class="tl-title">Metal Backed Bumpers (FIRST Robotics)</h2> -->
+    <h2 class="tl-title">Metal Backed Bumpers (FIRST Robotics)</h2>
     <figure class="slides-figure">
       <div class="slides-container">
         <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTTC4FWZ06ThkjP9DuRcQIcjBp6ozqO2NPl5kTLc7s6eCv4ivrnOW5Bs4kVC4tG1Vwd3jHZR9XHJC9Z/pubembed?start=false&loop=true&delayms=30000&rm=minimal" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
       </div>
-      <figcaption>Metal Backed Bumpers — FIRST Robotics</figcaption>
+      <!-- <figcaption>Metal Backed Bumpers — FIRST Robotics</figcaption> -->
     </figure>
   </div>
 
