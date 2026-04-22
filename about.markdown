@@ -21,5 +21,4 @@ DL: 145
 
 I AM WORKING ON IT TRUST -->
 
-## I'm locked in:
-[You might be interested in my linkedin](https://www.linkedin.com/in/christine-ruo-wei/)
+[You might be interested in my linkedin](https://www.linkedin.com/in/christine-ruo-wei/)?
