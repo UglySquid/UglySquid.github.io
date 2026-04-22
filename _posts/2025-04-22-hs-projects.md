@@ -6,6 +6,44 @@ categories: jekyll update
 ---
 
 <style>
+  .timeline {
+    position: relative;
+    padding-left: 2.2rem;
+    margin-top: 1.5rem;
+  }
+  .timeline::before {           /* vertical line */
+    content: '';
+    position: absolute;
+    left: 0.55rem;
+    top: 0.3rem;
+    bottom: 0;
+    width: 2px;
+    background: #ddd;
+  }
+  .tl-entry {
+    position: relative;
+    margin-bottom: 3rem;
+  }
+  .tl-dot {                     /* circle marker */
+    position: absolute;
+    left: -1.85rem;
+    top: 0.3rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid #333;
+    box-shadow: 0 0 0 2px #fff;
+  }
+  .tl-date {
+    font-size: 0.85rem;
+    color: #888;
+    margin: 0 0 0.3rem;
+  }
+  .tl-title {
+    margin: 0 0 1rem;
+  }
+  
   .slides-figure {
     margin: 1.5rem 0;
   }
