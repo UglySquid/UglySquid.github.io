@@ -6,6 +6,10 @@ categories: jekyll update
 ---
 
 <style>
+  /* body{
+        background:none transparent;
+  } */
+
   .timeline {
     position: relative;
     padding-left: 2.2rem;
@@ -86,7 +90,7 @@ Here are some of my projects from before I started University.
     <h2 class="tl-title">Make it Real (Autodesk Contest)</h2>
     <figure class="slides-figure">
       <div class="slides-container">
-        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSQnbfIs2bZZjJif3JQMnuOWmT9UnFQpkIm7Y-OyrP0GbxdwE5j3QRDhn_Xv0GgYs0NDxjZePGiLvIt/pubembed?start=false&loop=true&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSQnbfIs2bZZjJif3JQMnuOWmT9UnFQpkIm7Y-OyrP0GbxdwE5j3QRDhn_Xv0GgYs0NDxjZePGiLvIt/pubembed?start=false&loop=true&delayms=3000" allowtransparency="true" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
       </div>
       <!-- <figcaption>Make it Real — Autodesk Contest</figcaption> -->
     </figure>
