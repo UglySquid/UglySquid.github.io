@@ -6,9 +6,9 @@ categories: jekyll update
 ---
 
 <style>
-  /* body{
+  body{
         background:none transparent;
-  } */
+  }
 
   .timeline {
     position: relative;
