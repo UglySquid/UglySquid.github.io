@@ -19,8 +19,9 @@ categories: jekyll update
     content: '';
     position: absolute;
     left: 0.55rem;
+    top: 0.3rem;
     bottom: 0;
-    width: 0.2rem;
+    width: 2px;
     background: #ddd;
   }
   .tl-entry {
@@ -30,9 +31,9 @@ categories: jekyll update
   .tl-dot {                     /* circle marker */
     position: absolute;
     left: -2.15rem;
-    /* top: 0.3rem; */
-    width: 20.4;
-    height: 20.4;
+    top: 0.3rem;
+    width: 1rem;
+    height: 1rem;
     border-radius: 50%;
     background: #fff;
     border: 2px solid #ddd;
