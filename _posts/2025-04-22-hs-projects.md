@@ -55,10 +55,10 @@ categories: jekyll update
   .slides-container {
     position: relative;
     width: 100%;
-    padding-bottom: 60%; /* 569/960 aspect ratio */
+    padding-bottom: 61%; /* 569/960 aspect ratio */
     height: 0;
     overflow: hidden;
-    border-radius: 12px;
+    border-radius: 16px;
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
     background: white;
     border-bottom: 1px solid black;
