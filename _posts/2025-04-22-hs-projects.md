@@ -6,59 +6,47 @@ categories: jekyll update
 ---
 
 <style>
-body {
-    background: none transparent;
+  body{
+        background:none transparent;
   }
 
   .timeline {
-    --line-x: 0.55rem;          /* horizontal center of the vertical rule */
-    --dot-size: 1rem;
-    --dot-r: calc(var(--dot-size) / 2);
-
     position: relative;
     padding-left: 2.2rem;
     margin-top: 1.5rem;
   }
-
   .timeline::before {           /* vertical line */
     content: '';
     position: absolute;
-    left: calc(var(--line-x) - 1px);   /* center the 2 px line on --line-x */
-    top: 0.3rem;
+    left: 0.55rem;
     bottom: 0;
-    width: 2px;
+    width: 0.2rem;
     background: #ddd;
   }
-
   .tl-entry {
     position: relative;
     margin-bottom: 3rem;
   }
-
   .tl-dot {                     /* circle marker */
     position: absolute;
-    /* center dot on the line: line-x minus padding-left minus dot-radius */
-    left: calc(var(--line-x) - 2.2rem - var(--dot-r) + 1px);
-    /* align dot center with the line's start: line top minus dot-radius */
-    top:  calc(0.3rem - var(--dot-r));
-    width:  var(--dot-size);
-    height: var(--dot-size);
+    left: -2.15rem;
+    /* top: 0.3rem; */
+    width: 20.4;
+    height: 20.4;
     border-radius: 50%;
     background: #fff;
     border: 2px solid #ddd;
     box-shadow: 0 0 0 2px #fff;
   }
-
   .tl-date {
     font-size: 0.85rem;
     color: #888;
     margin: 0 0 0.3rem;
   }
-
   .tl-title {
     margin: 0 0 1rem;
   }
-
+  
   .slides-figure {
     margin: 1.5rem 0;
   }
@@ -66,21 +54,23 @@ body {
   .slides-container {
     position: relative;
     width: 100%;
-    padding-bottom: 57%;
+    padding-bottom: 57%; /* 569/960 aspect ratio */
     height: 0;
     overflow: hidden;
     border-radius: 16px;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
     background: white;
     border-bottom: 1px solid black;
-    border-left:   1px solid black;
-    border-right:  1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
   }
 
   .slides-container iframe {
     position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     border: 0;
   }
 
@@ -90,6 +80,7 @@ body {
     color: #666;
     margin-top: 8px;
   }
+
 </style>
 
 Here are some of my projects from before I started University.
