@@ -6,9 +6,9 @@ permalink: /about/
 
 ## Hey! Here's a little about me:
 
-My name's Christine but you can call me Chris 😻
+My name's Christine but you can call me Chris!
 
-I'm currently an engineering student at McMaster University!
+I'm currently a Mechanical Engineering student at McMaster University. 
 
 ## This website:
 I started this repository to host things on GitHub Pages but have since started using it to store other things I might want to share. 
