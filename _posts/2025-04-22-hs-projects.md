@@ -62,7 +62,8 @@ categories: jekyll update
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
     background: white;
     border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
   }
 
   .slides-container iframe {
