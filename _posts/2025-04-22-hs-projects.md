@@ -55,13 +55,15 @@ categories: jekyll update
   .slides-container {
     position: relative;
     width: 100%;
-    padding-bottom: 64%; /* 569/960 aspect ratio */
+    padding-bottom: 66%; /* 569/960 aspect ratio */
     height: 0;
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.10);
     background: white;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
   }
 
   .slides-container iframe {
