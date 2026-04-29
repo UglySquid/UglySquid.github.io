@@ -7,9 +7,7 @@ permalink: /projects/
 {% for project in site.projects %}
   <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
   <p>{{ project.subtitle }}</p>
-  {% if project.status == "in-progress" %}
-    <span>In progress</span>
-  {% endif %}
+  <p>{{ project.timeline }}</p>
 {% endfor %}
 
 ---
