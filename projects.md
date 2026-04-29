@@ -12,7 +12,7 @@ permalink: /projects/
 </div>
 {% endfor %}
 
----
+<hr>
 
 ### First year engineering design course projects
 [This is a portfolio we made for the course where the goal was to ooutline our personal contributions, goals, and lessons learned.](https://www.notion.so/Christine-Wei-2d9781805de080529d6bf99038639c0d?source=copy_link)
