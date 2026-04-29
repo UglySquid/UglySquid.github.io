@@ -1,7 +1,7 @@
 ---
 layout: page
 title: TVC Rocket Development
-subtitle: Personal Project
+subtitle: Fun / Curiosity
 timeline: April 2026 - Present
 ---
 
