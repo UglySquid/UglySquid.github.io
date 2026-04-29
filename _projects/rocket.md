@@ -2,7 +2,7 @@
 title: TVC Rocket Development
 subtitle: Personal Project
 status: in-progress
-date: 2026-04-020
+date: 2026-04-20
 ---
 
 # TVC Rocket
