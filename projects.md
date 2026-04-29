@@ -5,9 +5,11 @@ permalink: /projects/
 ---
 
 {% for project in site.projects %}
-  <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
-  <p>{{ project.subtitle }}</p>
-  <p>{{ project.timeline }}</p>
+<div style="margin-bottom: 2rem;">
+  <p style="margin: 0; font-size: 0.85rem; color: #888;">{{ project.timeline }}</p>
+  <h3 style="margin: 0.2rem 0 0.2rem 0;"><a href="{{ project.url }}">{{ project.title }}</a></h3>
+  <p style="margin: 0;">{{ project.subtitle }}</p>
+</div>
 {% endfor %}
 
 ---
