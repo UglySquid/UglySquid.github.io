@@ -84,7 +84,7 @@ categories: jekyll update
 
 </style>
 
-Here are some of my projects from before I started University.
+Here are some of my projects from before I started University. I wanted to include this as a look into my past and to show people that I didn't start off doing the most complex things either. Especially for people just starting off, I think it's important!
 
 <div class="timeline">
   <div class="tl-entry">
