@@ -8,7 +8,7 @@ permalink: /projects/
     <p style="margin: 0; font-size: 0.85rem; color: #888;">{{ project.timeline }}</p>
     <h3 style="margin: 0.2rem 0 0.2rem 0;"><a href="{{ project.url }}">{{ project.title }}</a></h3>
     <p style="margin: 0;">
-        <span style="font-size: 0.8rem; background: #e8f0fb; color: #4a90d9; padding: 2px 8px; border-radius: 10px; font-weight: 600;">
+        <span style="font-size: 0.8rem; background: #fdf0e8; color: #d4621a; padding: 2px 8px; border-radius: 10px; font-weight: 600;">
             Designed for: {{ project.subtitle }}
         </span>
     </p>
