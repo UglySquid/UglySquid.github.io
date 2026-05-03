@@ -6,7 +6,7 @@ permalink: /projects/
 {% for project in site.projects %}
 <div style="margin-bottom: 2rem;">
     <p style="margin: 0; font-size: 0.85rem; color: #888;">{{ project.timeline }}</p>
-    <h3 style="margin: 0.2rem 0 0.2rem 0;"><a href="{{ project.url }}">{{ project.title }}</a></h3>
+    <h3 style="margin: 0.2rem 0 0.2rem 0;"><a href="{{ project.url }}" style="color: black; text-decoration: none;">{{ project.title }}</a></h3>
     <p style="margin: 0;">
         <span style="font-size: 0.8rem; background: #fdf0e8; color: #d4621a; padding: 2px 8px; border-radius: 10px; font-weight: 600;">
             Designed for: {{ project.subtitle }}
