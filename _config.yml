@@ -21,7 +21,7 @@
 title: Christine Wei
 email: christine.wei.63@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hello! I use thie website to store my projects and other interesting things!
+  Hello! I use this website to store my projects and other interesting things!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: cryies.w
