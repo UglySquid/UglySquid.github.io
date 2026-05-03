@@ -1,3 +1,19 @@
+---
+layout: project
+title: TVC Rocket Developments
+subtitle: Fun / Curiosity
+timeline: April 2026 - Present
+---
+
+<div style="margin-bottom: 2rem;">
+    <p style="margin: 0; font-size: 0.85rem; color: #888;">April 2026 - Present</p>
+    <p style="margin: 0;">
+        <span style="font-size: 0.8rem; background: #fdf0e8; color: #d4621a; padding: 2px 8px; border-radius: 10px; font-weight: 600;">
+            Designed for: Fun / Curiosity
+        </span>
+    </p>
+</div>
+
 # Motivation
 I started this project with a desire to build a rocket. I didn't want to build a model rocket kit or a typical rocket as my desire was to challenge myself. While looking at rocket videos online, I came across the concept of Thrust Vector Control rockets and a few channels that really solidified my desire to build one myself. 
 
