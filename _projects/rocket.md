@@ -44,7 +44,7 @@ Control fins are also mentioned.
 
 For now I am not doing much actual rocket research because I want to focus on the TVC. I do know a bit from past interest in rocketry and I do believe I know enough to complete the TVC. My plan is to finish the TVC, work on the avionics bay, add parachute systems and a nosecone, and then do necessary simulations. 
 
-A lot of my research past these few main sources were looking into other people's designs and taking inspiration. 
+A lot of my research past these few main sources were looking into other people's designs and taking inspiration. A big one is L Shang.
 
 # Initial designing
 Before I even CADed anything I made quite a few sketches on my iPad. 
