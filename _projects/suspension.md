@@ -14,4 +14,4 @@ timeline: October 2025 - Present
     </p>
 </div>
 
-this page is under construction! Check back later!
+This page is under construction! Check back later!
