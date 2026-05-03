@@ -92,7 +92,7 @@ I happened to be with a friend that day and talked about this project, and he su
   </figure>
   <figure style="flex: 1; margin: 0;">
     <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_800/v1777838485/servo-mount-V3_qr0vee.png" style="width: 100%;">
-    <figcaption>Third servo mount CAD</figcaption>
+    <figcaption>Third servo mount CAD (please right click and open in new tab)</figcaption>
   </figure>
 </div>
 
