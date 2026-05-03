@@ -33,18 +33,18 @@ permalink: /projects/
   align-items: center;
   gap: 10px;
   padding: 8px 14px;
-  background: #FFFBEB;
+  background: #F9FAFB;
   border-radius: 8px;
-  border: 0.5px solid #FCD34D;
+  border: 0.5px solid #D1D5DB;
   margin: 0.5rem 0 1.25rem;
 ">
   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink: 0;">
-    <path d="M8 1.5L14.5 13H1.5L8 1.5Z" stroke="#B45309" stroke-width="1.4" fill="none"/>
-    <line x1="8" y1="6" x2="8" y2="9.5" stroke="#B45309" stroke-width="1.4" stroke-linecap="round"/>
-    <circle cx="8" cy="11.2" r="0.7" fill="#B45309"/>
+    <path d="M8 1.5L14.5 13H1.5L8 1.5Z" stroke="#6B7280" stroke-width="1.4" fill="none"/>
+    <line x1="8" y1="6" x2="8" y2="9.5" stroke="#6B7280" stroke-width="1.4" stroke-linecap="round"/>
+    <circle cx="8" cy="11.2" r="0.7" fill="#6B7280"/>
   </svg>
-  <span style="font-size: 13px; color: #92400E;">
-    The following links open an external page (Notion, Google Drive)
+  <span style="font-size: 13px; color: #374151;">
+    The following links open in an external page (Notion, Google Drive)
   </span>
 </div>
 
