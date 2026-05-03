@@ -16,7 +16,7 @@ permalink: /projects/
 
 {% endfor %}
 
-<hr style="margin-bottom: 2rem;">
+<hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, #ccc, transparent); margin: 2rem 0;">
 
 <div style="margin-bottom: 2rem;">
     <p style="margin: 0; font-size: 0.85rem; color: #888;"> September 2025 - April 2026</p>
