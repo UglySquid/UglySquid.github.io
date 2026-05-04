@@ -5,6 +5,24 @@ subtitle: Fun / Curiosity
 timeline: April 2026 - Present
 ---
 
+<style>
+    figure {
+        margin: 0;
+        border: 0.5px solid #e0e0e0;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    figcaption {
+        text-align: center;
+        font-size: 0.85rem;
+        color: #888;
+        padding: 9px 12px 10px;
+        background: #f9f9f9;
+        border-top: 0.5px solid #e0e0e0;
+    }
+</style>
+
 <div style="margin-bottom: 2rem;">
     <p style="margin: 0; font-size: 0.85rem; color: #888;">April 2026 - Present</p>
     <p style="margin: 0;">
@@ -30,7 +48,8 @@ My research delves into the types of TVC systems used in model rockets and of co
 I looked at a few main sources:
 BPS space's How To Build a Thrust Vectored Model Rocket - National Rocketry Conference 2020 video and his various other videos
 This source was great for understanding the process of designing and building your very own TVC rocket. It had a lot of great advice and is a very in depth video.
-This video definitely showed me that the hard part would be coding. However, I decided not to go with one of the readily available open source designs online and design my own, so that may add difficulty to that part of the project. 
+This video definitely showed me that the hard part would be coding. However, I decided not to go with one of the readily available open source designs online and design my own, so that may add difficulty to that part of the project.
+
 [This article from aerospace notes](https://aerospacenotes.com/propulsion-2/thrust-vector-control/)
 This article describes really well types of TVC, although many are not quite feasible on model rockets. They have nice diagrams as well. 
 Gimbal/Hinge is that one I wanted to go with, but some other common ones are jet vanes/tabs, and side injection. These other methods are also covered in the apogee rocket newsletter linked next.
