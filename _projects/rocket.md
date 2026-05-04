@@ -68,10 +68,12 @@ A lot of my research past these few main sources were looking into other people'
 # Initial designing
 Before I even CADed anything I made quite a few sketches on my iPad. 
 
+<div style="margin: 1.5rem">
 <figure style="max-width: 100%; margin: 0 auto;">
   <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_1200/v1777838487/Untitled_Artwork_39_cx69cz.png" style="width: 100%;">
   <figcaption>Overall rocket sections that will be worked on individually</figcaption>
 </figure>
+</div>
 
 <div style="display: flex; gap: 1rem; margin: 1.5rem 0; align-items: flex-start;">
   <figure style="flex: 1; margin: 0;">
@@ -86,10 +88,12 @@ Before I even CADed anything I made quite a few sketches on my iPad.
 
 I started with a master sketch that had all the geometry I would need to reference, and then split the TVC into 3 main parts. The first part is the servo mount, the second is the gimbal interface, and the third is the motor mount. 
 
+<div style="margin: 1.5rem">
 <figure style="max-width: 50%; margin: 0 auto;">
   <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_1200/v1777838481/master-sketch_jygezk.png" style="width: 100%;">
   <figcaption>Master Sketch</figcaption>
 </figure>
+</div>
 
 I started with the servo mount as that's where all the motion comes from. This was more difficult than I imagined to start with, and the placement really confused me for the first day. It definitely made more sense as I finished the first iteration and realized I had it completely wrong. 
 
@@ -106,10 +110,12 @@ I started with the servo mount as that's where all the motion comes from. This w
 
 I made another copy and I was quite happy with it all except for the space utilisation. 
 
+<div style="margin: 1.5rem">
 <figure style="max-width: 50%; margin: 0 auto;">
   <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_1200/v1777838482/servo-mount-v2_fni2jk.png" style="width: 100%;">
   <figcaption>Second servo mount CAD</figcaption>
 </figure>
+</div>
 
 I happened to be with a friend that day and talked about this project, and he suggested a totally different arrangement that blew my mind completely. I made another version with his suggestion, and it worked tremendously better than I could have imagined. 
 
@@ -137,10 +143,12 @@ I happened to be with a friend that day and talked about this project, and he su
 
 Currently, I am struggling a lot with the motor mount and have gone back and forth with a lot of designs. The big issue is manufacturing. 3D printing is not suitable due to the heat from the motor, not even ABS, and the shapes I need are so irregular that it is difficult to make with services like sendcutsend, which only does flat sheet metal and bending. Furthermore, attaching the gimbal would be incredibly difficult because of the weird thread size (15/16-27) as it's a faucet standard and not a standard anywhere else. (I purchased a 360 degree swivel aerator to use as the gimbal, which uses universal faucet threads). 
 
+<div style="margin: 1.5rem">
 <figure style="max-width: 50%; margin: 0 auto;">
   <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_1200/v1777838492/IMG_0536_jd20sx.png" style="width: 100%;">
   <figcaption>Overall motor mount idea</figcaption>
 </figure>
+</div>
 
 With my first attempt, I thought it would be easiest to use rings cut out of sheet metal, as it was easy to source. Two issues occurred: The ring was too big, it was sized to the very edge of the airframe and would not gimbal at all (woops!) and…how was I going to case the cylinder!
 
@@ -159,7 +167,7 @@ With my second attempt, I decided that I would just have two little prongs stick
 
 <div style="display: flex; gap: 1rem; margin: 1.5rem 0; align-items: flex-start;">
   <figure style="flex: 1; margin: 0;">
-    <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_800/v1777838511/IMG_0539_lafz15.png" style="width: 100%;">
+    <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/c_crop,ar_1:1/v1777838511/IMG_0539_lafz15.png" style="width: 100%;">
     <figcaption>Second motor mount sketch</figcaption>
   </figure>
   <figure style="flex: 1; margin: 0;">
