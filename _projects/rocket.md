@@ -38,9 +38,9 @@ I started this project with a desire to build a rocket. I didn't want to build a
 # Thrust Vector Control
 Before I get ahead of myself, let me explain what Thrust Vector Control (TVC) is. When a rocket is launched, the force that is exerted on the rocket in an upwards direction is called thrust. This force is actually a reaction force against the rocket that occurs when a motor is burned and it exerts a force from the motor onto the atmosphere. 
 
-TVC controls the direction of the rocket by controlling the thrust, or the direction of the thrust vector. (I believe that it is not called thrust control as the magnitude of the thrust cannot be controlled in such a way and it is the direction of the force vector). 
+TVC controls the direction of the rocket by controlling the thrust, or the direction of the thrust vector. It is called thrust VECTOR control rather than thrust control because the magnitude of the thrust cannot be controlled. Instead, we control only the direction of the thrust vector (yes i repeated myself). 
 
-The reason why this is necessary is because rockets often do not go straight up and thus do not reach the maximum altitude they could. 
+TVC can help model rockets achieve higher altitudes. 
 
 My research delves into the types of TVC systems used in model rockets and of course my sources. 
 
@@ -63,14 +63,17 @@ Control fins are also mentioned.
 
 For now I am not doing much actual rocket research because I want to focus on the TVC. I do know a bit from past interest in rocketry and I do believe I know enough to complete the TVC. My plan is to finish the TVC, work on the avionics bay, add parachute systems and a nosecone, and then do necessary simulations. 
 
-A lot of my research past these few main sources were looking into other people's designs and taking inspiration. A big one is L Shang.
+A lot of my research past these few main sources were looking into other people's designs and taking inspiration. A big inspiration was L Shang.
 
 # Initial designing
 Before I even CADed anything I made quite a few sketches on my iPad. 
 
-![Overall rocket sections that will be worked on individually](https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_1200/v1777838487/Untitled_Artwork_39_cx69cz.png)
+<figure style="max-width: 100%; margin: 0 auto;">
+  <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_1200/v1777838487/Untitled_Artwork_39_cx69cz.png" style="width: 100%;">
+  <figcaption>Overall rocket sections that will be worked on individually</figcaption>
+</figure>
 
-<div style="display: flex; gap: 1rem; margin: 1.5rem 0;">
+<div style="display: flex; gap: 1rem; margin: 1.5rem 0; align-items: flex-start;">
   <figure style="flex: 1; margin: 0;">
     <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_800/v1777838503/Untitled_Artwork-1_rnawqu.png" style="width: 100%;">
     <figcaption>TVC mechanism sketch</figcaption>
@@ -83,11 +86,14 @@ Before I even CADed anything I made quite a few sketches on my iPad.
 
 I started with a master sketch that had all the geometry I would need to reference, and then split the TVC into 3 main parts. The first part is the servo mount, the second is the gimbal interface, and the third is the motor mount. 
 
-![Master sketch](https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_1200/v1777838481/master-sketch_jygezk.png)
+<figure style="max-width: 50%; margin: 0 auto;">
+  <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_1200/v1777838481/master-sketch_jygezk.png" style="width: 100%;">
+  <figcaption>Master Sketch</figcaption>
+</figure>
 
 I started with the servo mount as that's where all the motion comes from. This was more difficult than I imagined to start with, and the placement really confused me for the first day. It definitely made more sense as I finished the first iteration and realized I had it completely wrong. 
 
-<div style="display: flex; gap: 1rem; margin: 1.5rem 0;">
+<div style="display: flex; gap: 1rem; margin: 1.5rem 0; align-items: flex-start;">
   <figure style="flex: 1; margin: 0;">
     <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_800/v1777838491/IMG_0535_udzqbo.png" style="width: 100%;">
     <figcaption>First servo mount sketch</figcaption>
@@ -100,11 +106,14 @@ I started with the servo mount as that's where all the motion comes from. This w
 
 I made another copy and I was quite happy with it all except for the space utilisation. 
 
-![Second servo mount CAD](https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_1200/v1777838482/servo-mount-v2_fni2jk.png)
+<figure style="max-width: 50%; margin: 0 auto;">
+  <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_1200/v1777838482/servo-mount-v2_fni2jk.png" style="width: 100%;">
+  <figcaption>Second servo mount CAD</figcaption>
+</figure>
 
 I happened to be with a friend that day and talked about this project, and he suggested a totally different arrangement that blew my mind completely. I made another version with his suggestion, and it worked tremendously better than I could have imagined. 
 
-<div style="display: flex; gap: 1rem; margin: 1.5rem 0;">
+<div style="display: flex; gap: 1rem; margin: 1.5rem 0; align-items: flex-start;">
   <figure style="flex: 1; margin: 0;">
     <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_800/v1777838507/IMG_0538_vdqmhx.png" style="width: 100%;">
     <figcaption>Third servo mount sketch</figcaption>
@@ -115,7 +124,7 @@ I happened to be with a friend that day and talked about this project, and he su
   </figure>
 </div>
 
-<div style="display: flex; gap: 1rem; margin: 1.5rem 0;">
+<div style="display: flex; gap: 1rem; margin: 1.5rem 0; align-items: flex-start;">
   <figure style="flex: 1; margin: 0;">
     <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_800/v1777838497/servo-mount-V3-top_j0tcdk.png" style="width: 100%;">
     <figcaption>Third servo mount — top view</figcaption>
@@ -128,11 +137,14 @@ I happened to be with a friend that day and talked about this project, and he su
 
 Currently, I am struggling a lot with the motor mount and have gone back and forth with a lot of designs. The big issue is manufacturing. 3D printing is not suitable due to the heat from the motor, not even ABS, and the shapes I need are so irregular that it is difficult to make with services like sendcutsend, which only does flat sheet metal and bending. Furthermore, attaching the gimbal would be incredibly difficult because of the weird thread size (15/16-27) as it's a faucet standard and not a standard anywhere else. (I purchased a 360 degree swivel aerator to use as the gimbal, which uses universal faucet threads). 
 
-![Overall motor mount idea](https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_1200/v1777838492/IMG_0536_jd20sx.png)
+<figure style="max-width: 50%; margin: 0 auto;">
+  <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_1200/v1777838492/IMG_0536_jd20sx.png" style="width: 100%;">
+  <figcaption>Overall motor mount idea</figcaption>
+</figure>
 
 With my first attempt, I thought it would be easiest to use rings cut out of sheet metal, as it was easy to source. Two issues occurred: The ring was too big, it was sized to the very edge of the airframe and would not gimbal at all (woops!) and…how was I going to case the cylinder!
 
-<div style="display: flex; gap: 1rem; margin: 1.5rem 0;">
+<div style="display: flex; gap: 1rem; margin: 1.5rem 0; align-items: flex-start;">
   <figure style="flex: 1; margin: 0;">
     <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_800/v1777838500/IMG_0537_dez8io.png" style="width: 100%;">
     <figcaption>First motor mount sketch</figcaption>
@@ -145,7 +157,7 @@ With my first attempt, I thought it would be easiest to use rings cut out of she
 
 With my second attempt, I decided that I would just have two little prongs stick out at four places. These spokes are 90 degrees from each other and would be secured by some sort of bolt. I gave up after realizing it would be almost impossible to attach the prongs to the cylinder. 
 
-<div style="display: flex; gap: 1rem; margin: 1.5rem 0;">
+<div style="display: flex; gap: 1rem; margin: 1.5rem 0; align-items: flex-start;">
   <figure style="flex: 1; margin: 0;">
     <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_800/v1777838511/IMG_0539_lafz15.png" style="width: 100%;">
     <figcaption>Second motor mount sketch</figcaption>
@@ -158,7 +170,7 @@ With my second attempt, I decided that I would just have two little prongs stick
 
 With my third attempt, I decided that I would again have two little prongs stick out at four places. It would be a very similar layout, but instead I would use threaded rods. These will also serve nicely as set screws to retain the motor. The only issue here is that they would have to be drilled at an angle and tapped at an angle, in addition to the main issue noted at the start. This is by far my best shot and I will work with this as a 3D print and then get my materials to work with it. 
 
-<div style="display: flex; gap: 1rem; margin: 1.5rem 0;">
+<div style="display: flex; gap: 1rem; margin: 1.5rem 0; align-items: flex-start;">
   <figure style="flex: 1; margin: 0;">
     <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/f_auto,q_auto,w_800/v1777838503/IMG_0540_nbltve.png" style="width: 100%;">
     <figcaption>Third motor mount sketch</figcaption>
