@@ -22,17 +22,14 @@ timeline: April 2026 - Present
         border-top: 0.5px solid #e0e0e0;
     }
 
-    .problems-table-wrap {
-  border: 0.5px solid #e0e0e0;
-  border-radius: 10px;
-  overflow: hidden;
-  margin: 1.5rem 0;
-}
-
 .problems-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.9rem;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    margin: 1.5rem 0;
+    border: 0.5px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
   .problems-table thead tr {
@@ -279,7 +276,7 @@ This is the latest assembly, I forgot to take pictures of the last few unfortuna
   </figure>
 </div>
 
-<div class="problems-table-wrap">
+
   <table class="problems-table">
   <thead>
     <tr>
@@ -366,6 +363,5 @@ This is the latest assembly, I forgot to take pictures of the last few unfortuna
 
   </tbody>
 </table>
-</div>
 
 I also need to deal with motor retention later, but I am still looking at OTS options and custom options that fit the designed motor mount. 
