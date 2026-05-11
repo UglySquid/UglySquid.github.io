@@ -1,6 +1,6 @@
 ---
 layout: project
-title: TVC Rocket Developments
+title: TVC Rocket Development
 subtitle: Fun / Curiosity
 timeline: April 2026 - Present
 ---
@@ -24,7 +24,8 @@ timeline: April 2026 - Present
 
       .problems-table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
     font-size: 0.9rem;
     margin: 1.5rem 0;
     border: 0.5px solid #e0e0e0;
@@ -267,7 +268,7 @@ With my third attempt, I decided that I would again have two little prongs stick
   </figure>
 </div>
 
-This is the latest assembly, I forgot to take pictures of the last few unfoortunately. There has been a LOT of changes to pretty much every part either for decreasing weight, price, fixing a problem, or manufacturing. I am at a point where I unfortunately also had to make returns on aliexpress...which suck a lot (just two items). Additionally, I dedfinetely have some unsolved problems right now, that I plan on fixing later.
+This is the latest assembly, I forgot to take pictures of the last few unfortunately. There has been a LOT of changes to pretty much every part either for decreasing weight, price, fixing a problem, or manufacturing. I am at a point where I unfortunately also had to make returns on aliexpress...which suck a lot. Here is a summary of my solved and unsolved issues. 
 
 <div style="display: flex; gap: 1rem; margin: 1.5rem 0; align-items: flex-start;">
   <figure style="flex: 1; margin: 0;">
@@ -291,7 +292,7 @@ This is the latest assembly, I forgot to take pictures of the last few unfoortun
         <ul>
           <li>Wait until previously purchased rods arrive so they can be returned (AliExpress policy)</li>
           <li>Wait until servo mount design is finalised and measure</li>
-          <li>Will likely need to cut push rods or accept odd servo mount heights — unclear which is better for coding</li>
+          <li>Will likely need to cut push rods or accept odd servo mount heights, not clear if decision has impact on coding</li>
         </ul>
       </td>
     </tr>
@@ -300,28 +301,29 @@ This is the latest assembly, I forgot to take pictures of the last few unfoortun
       <td>Servo being bootleg</td>
       <td>
         <ul>
-          <li>Return and purchase real MG90s, bootleg servos make the build too expensive to justify</li>
+          <li>Return and purchase MG90s, bootleg servos not worth the money I paid.</li>
+          <li>Final Solution: Just don't return, too lazy and shipping it back would take moeny + effort that it isn't worth. HOWEVER, still, will have to do some coding before I can determine if they even work.</li>
         </ul>
       </td>
     </tr>
 
     <tr>
-      <td>Servo horns missing or incompatible + M2 vs M3 hole mismatch</td>
+      <td>Servo horns (missing or incompatible + M2 vs M3 hole mismatch)</td>
       <td>
         <ul>
-          <li>Custom order from Send Cut Send (sheet metal) or PCBWay (CNC)</li>
+          <li>Custom order from Send Cut Send (sheet metal) or PCBWay (CNC) would be expensive</li>
           <li>3D print custom horns</li>
           <li>Purchase INJORA horns (M2, 11.5 mm hole-to-hole), drill out and re-tap to M3</li>
-          <li>The hole-to-hole distane was much less than expected, pretty much broke my geometry and I realized I had way too many external references and was designing it with very "breakable" geometry.</li>
+          <li>Final solution: The hole-to-hole distane was much less than expected, pretty much broke my geometry and I realized design had very"breakable" geometry. Redesign. Also, motors came, they have horns that come with it that have different hole-to-hole distance than Injora ones, and Injora ones come really late (mid June). Will use the servo horns that came with it, and then ream the M2 hole to M3.</li>
         </ul>
       </td>
     </tr>
 
     <tr class="solved">
-      <td>Servo mount design</td>
+        <td>Geometry of servo mount design <span class="solved-badge">Solved</span></td>
       <td>
         <ul>
-          <li>Breaks easily due to high feature count and the multitute of references</li>
+          <li>Breaks easily due to high feature count and the multitude of references</li>
           <li>Wait until servo arrives to measure before finalising</li>
           <li>redesign it with less breakable geometry.</li>
         </ul>
@@ -329,12 +331,13 @@ This is the latest assembly, I forgot to take pictures of the last few unfoortun
     </tr>
 
     <tr class="solved">
+        <td>Acquire rail buttons <span class="solved-badge">Solved</span></td>
       <td>Thread engagement on the spokes</td>
       <td>
         <ul>
           <li>Decrease spoke angle and use 90° geometry for better engagement</li>
           <li>Add a band that has allows for greater thread engagement</li>
-          <li>When doing calculations, I found that "thread engagement length" was really dependent on the bolt snapping before the hole is strippedd, but I really don't think a steel bolt is likely snap before stripping the hole, and it is not my main concern. I did some simple calculations with pitch and rounded up to 5mm. The end result requires chamfering the part on a lathe, which I looked into and found to be very possible. </li>
+          <li>Final Solution: When doing calculations, I found that "thread engagement length" is the length at which the bolt snaps before the hole is strippedd, but I really don't think a steel bolt is likely snap before stripping the hole, and it is not my main concern. I did some simple calculations with pitch and rounded up to 5mm. The end result requires chamfering the motor mount on a lathe, which I looked into and found to be very possible. Also did some mass calculations and found that decreasing the wall thickness of the motor mount from 5mm to 3mm pretty much halved the weight, so I went with 3mm. The wall thickness being that little was the reason I was concerned about thread engangement in the first place. </li>
         </ul>
       </td>
     </tr>
@@ -343,20 +346,22 @@ This is the latest assembly, I forgot to take pictures of the last few unfoortun
       <td>Acquire rail buttons <span class="solved-badge">Solved</span></td>
       <td>
         <ul>
-          <li>Print custom ones,  model available on GrabCAD</li>
+          <li>Final solution: Print custom ones,  model available on GrabCAD</li>
         </ul>
       </td>
     </tr>
 
     <tr class="solved">
-      <td>Gimbal cost driven up by shipping <span class="solved-badge">Solved</span></td>
+      <td>Gimbal cost ( shipping cost )<span class="solved-badge">Solved</span></td>
       <td>
         <ul>
           <li>Make your own gimbal (this was not worth it)</li>
-          <li>Purchase from McMaster-Carr (cheapest available option, but when I weighed it it was quite heavy (45 g) so I am not in the best position with weight budgett)</li>
+          <li>Final solution: Purchase from McMaster-Carr (cheapest available option, but when I weighed it it was quite heavy (45 g) so I am not in the best position with weight budgett)</li>
         </ul>
       </td>
     </tr>
 
   </tbody>
 </table>
+
+I also need to deal with motor retention later, but I am still looking at OTS options and custom options that fit the designed motor mount. 
