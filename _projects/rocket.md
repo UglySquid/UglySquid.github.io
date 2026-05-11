@@ -21,6 +21,84 @@ timeline: April 2026 - Present
         background: #f9f9f9;
         border-top: 0.5px solid #e0e0e0;
     }
+
+      .problems-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    margin: 1.5rem 0;
+    border: 0.5px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .problems-table thead tr {
+    background: #f9f9f9;
+    border-bottom: 0.5px solid #e0e0e0;
+  }
+
+  .problems-table th {
+    padding: 10px 14px;
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #555;
+    letter-spacing: 0.03em;
+  }
+
+  .problems-table td {
+    padding: 10px 14px;
+    vertical-align: top;
+    border-bottom: 0.5px solid #e0e0e0;
+    color: #333;
+  }
+
+  .problems-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  .problems-table td:first-child {
+    font-weight: 600;
+    color: #222;
+    width: 30%;
+  }
+
+  .problems-table td ul {
+    margin: 0;
+    padding-left: 1.2rem;
+    color: #555;
+  }
+
+  .problems-table td ul li {
+    margin-bottom: 3px;
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+
+  .problems-table td ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  .problems-table tr.solved td {
+    background: #f0faf3;
+  }
+
+  .problems-table tr.solved td:first-child {
+    color: #2a7a4b;
+  }
+
+  .solved-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    background: #e6f5ec;
+    color: #2a7a4b;
+    padding: 1px 7px;
+    border-radius: 10px;
+    margin-left: 6px;
+    vertical-align: middle;
+    border: 0.5px solid #b6dfc5;
+  }
 </style>
 
 <div style="margin-bottom: 2rem;">
@@ -188,3 +266,97 @@ With my third attempt, I decided that I would again have two little prongs stick
     <figcaption>Third motor mount CAD</figcaption>
   </figure>
 </div>
+
+This is the latest assembly, I forgot to take pictures of the last few unfoortunately. There has been a LOT of changes to pretty much every part either for decreasing weight, price, fixing a problem, or manufacturing. I am at a point where I unfortunately also had to make returns on aliexpress...which suck a lot (just two items). Additionally, I dedfinetely have some unsolved problems right now, that I plan on fixing later.
+
+<div style="display: flex; gap: 1rem; margin: 1.5rem 0; align-items: flex-start;">
+  <figure style="flex: 1; margin: 0;">
+    <img src="https://res.cloudinary.com/dfj6fqqc3/image/upload/q_auto/f_auto/v1778478014/Screenshot_2026-05-11_013837_hmfxhl.png" style="width: 100%;">
+    <figcaption>current most up to date assembly</figcaption>
+  </figure>
+</div>
+
+<table class="problems-table">
+  <thead>
+    <tr>
+      <th>Problem</th>
+      <th>Next Steps / Possible Solutions</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr>
+      <td>Push rod lengths</td>
+      <td>
+        <ul>
+          <li>Wait until previously purchased rods arrive so they can be returned (AliExpress policy)</li>
+          <li>Wait until servo mount design is finalised and measure</li>
+          <li>Will likely need to cut push rods or accept odd servo mount heights — unclear which is better for coding</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Servo being bootleg</td>
+      <td>
+        <ul>
+          <li>Return and purchase real MG90s, bootleg servos make the build too expensive to justify</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Servo horns missing or incompatible + M2 vs M3 hole mismatch</td>
+      <td>
+        <ul>
+          <li>Custom order from Send Cut Send (sheet metal) or PCBWay (CNC)</li>
+          <li>3D print custom horns</li>
+          <li>Purchase INJORA horns (M2, 11.5 mm hole-to-hole), drill out and re-tap to M3</li>
+          <li>The hole-to-hole distane was much less than expected, pretty much broke my geometry and I realized I had way too many external references and was designing it with very "breakable" geometry.</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr class="solved">
+      <td>Servo mount design</td>
+      <td>
+        <ul>
+          <li>Breaks easily due to high feature count and the multitute of references</li>
+          <li>Wait until servo arrives to measure before finalising</li>
+          <li>redesign it with less breakable geometry.</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr class="solved">
+      <td>Thread engagement on the spokes</td>
+      <td>
+        <ul>
+          <li>Decrease spoke angle and use 90° geometry for better engagement</li>
+          <li>Add a band that has allows for greater thread engagement</li>
+          <li>When doing calculations, I found that "thread engagement length" was really dependent on the bolt snapping before the hole is strippedd, but I really don't think a steel bolt is likely snap before stripping the hole, and it is not my main concern. I did some simple calculations with pitch and rounded up to 5mm. The end result requires chamfering the part on a lathe, which I looked into and found to be very possible. </li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr class="solved">
+      <td>Acquire rail buttons <span class="solved-badge">Solved</span></td>
+      <td>
+        <ul>
+          <li>Print custom ones,  model available on GrabCAD</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr class="solved">
+      <td>Gimbal cost driven up by shipping <span class="solved-badge">Solved</span></td>
+      <td>
+        <ul>
+          <li>Make your own gimbal (this was not worth it)</li>
+          <li>Purchase from McMaster-Carr (cheapest available option, but when I weighed it it was quite heavy (45 g) so I am not in the best position with weight budgett)</li>
+        </ul>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
