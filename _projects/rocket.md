@@ -28,7 +28,7 @@ timeline: April 2026 - Present
     font-size: 0.9rem;
     margin: 1.5rem 0;
     border: 0.5px solid #e0e0e0;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     overflow: hidden;
 }
 
