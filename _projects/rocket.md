@@ -331,8 +331,7 @@ This is the latest assembly, I forgot to take pictures of the last few unfortuna
     </tr>
 
     <tr class="solved">
-        <td>Acquire rail buttons <span class="solved-badge">Solved</span></td>
-      <td>Thread engagement on the spokes</td>
+        <td>Thread engagement on the spokes<span class="solved-badge">Solved</span></td>
       <td>
         <ul>
           <li>Decrease spoke angle and use 90° geometry for better engagement</li>
