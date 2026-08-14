@@ -33,24 +33,25 @@ categories: jekyll update
   .tl-entry:last-child {
     margin-bottom: 0;
   }
-  .tl-entry::before {           /* circle marker, anchored to the date line */
+
+  .tl-date {
+  position: relative;      /* dot anchors to this box specifically */
+  font-size: 0.85rem;
+  color: #888;
+  margin: 0 0 0.3rem;
+  }
+  .tl-date::before {         /* dot moved here, off .tl-entry */
     content: '';
     position: absolute;
-    left: -2.15rem;
-    top: 0.65rem;
+    left: -1.95rem;           /* horizontal position only — no vertical guess */
+    top: 50%;
+    transform: translateY(-50%);
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
     background: #fff;
     border: 2px solid #ddd;
     box-shadow: 0 0 0 2px #fff;
-    transform: translateY(-50%);
-  }
-
-  .tl-date {
-    font-size: 0.85rem;
-    color: #888;
-    margin: 0 0 0.3rem;
   }
   .tl-title {
     margin: 0 0 1rem;
