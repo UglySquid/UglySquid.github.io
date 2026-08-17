@@ -55,7 +55,7 @@ timeline: October 2025 - Present
 I joined the Mechanical team on Mars Rover in my first year and had the opportunity to work on the suspension subsystem. The team was resctructured (from discipline-based to susbsystem-based sub teams) after my first year , I became the suspension subteam lead. This is a collection of the work I have done on the suspension (so far)!
 
 # Why Mars Rover? 
-I became interested in Mars rovers because of a video Mark Rober made about his time working on the Curiosity at NASA. 
+I became interested in Mars rovers because of a video Mark Rober made about his time working on the Curiosity rover at NASA. 
 
 One aspect that inspired me was certainly the impact he made and the pride he felt over the course of the project. However, I was even more inspired by the teamwork that went into the rover. As I watched Mark Rober and the whole team behind the rover come together to watch the launch of the curiosity rover, I saw how they shared the same anticipation, tension, relief, and finally joy. To be able to share the joy and shoulder the same struggles with a team that cares for the success of the rover just as much as Mark  seemed wonderful. It made me really want to be on a team and work towards a common goal. I also love that the Curiosity rover was a mosaic of the whole team that worked on it, and that this team was able to design and create something bigger as a team than the sum of what they would be able to create as an individual. 
 
@@ -63,7 +63,7 @@ One aspect that inspired me was certainly the impact he made and the pride he fe
 # Rocker Bogie
 <figure class="slides-figure">
     <div class="slides-container">
-        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS7BUip7FhJC2jZf-Luqo20KV3PQ4UuN4hpb3MQlwK8lEBV9OCiWGzygpe3oUipUVPQFOKVuUS_DX7E/pubembed?start=false&loop=true&delayms=3000" frameborder="0"allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS7BUip7FhJC2jZf-Luqo20KV3PQ4UuN4hpb3MQlwK8lEBV9OCiWGzygpe3oUipUVPQFOKVuUS_DX7E/pubembed?start=false&loop=true&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     </div>
 </figure>
 
