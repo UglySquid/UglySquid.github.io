@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Rocker Bogie Suspension System
+title: Mars Rover Suspension System
 subtitle: McMaster Mars Rover Team - V3 rover
 timeline: October 2025 - Present
 ---
