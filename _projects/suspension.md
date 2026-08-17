@@ -63,17 +63,13 @@ One aspect that inspired me was certainly the impact he made and the pride he fe
 # Rocker Bogie
 <figure class="slides-figure">
     <div class="slides-container">
-        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS7BUip7FhJC2jZf-Luqo20KV3PQ4UuN4hpb3MQlwK8lEBV9OCiWGzygpe3oUipUVPQFOKVuUS_DX7E/pubembed?start=false&loop=true&delayms=3000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS7BUip7FhJC2jZf-Luqo20KV3PQ4UuN4hpb3MQlwK8lEBV9OCiWGzygpe3oUipUVPQFOKVuUS_DX7E/pubembed?start=false&loop=true&delayms=3000" frameborder="0"allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     </div>
 </figure>
 
 # Differential bar
 <figure class="slides-figure">
     <div class="slides-container">
-        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ6OH-yLD5cft8BNe2zsi1-qzr1ox-aoDD1GITyVW6b9hC72QjA3FDWv8kUcxTkUmxY3esyRnW_hDTR/pubembed?start=false&loop=true&delayms=3000" frameborder="0" width="1726" height="1000" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ6OH-yLD5cft8BNe2zsi1-qzr1ox-aoDD1GITyVW6b9hC72QjA3FDWv8kUcxTkUmxY3esyRnW_hDTR/pubembed?start=false&loop=true&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
     </div>
 </figure>
-
-# Did i do all this really?
-This was actually something that was joked about before I joined the subteam. Unfortunately, the suspension team did actually end up being largely first-year single-person designed. Origingally the team had a lot more people, but one person quit, one person got busy with co-op, and another person slowly started ghosting. I was pretty much left with no one else except for my team lead to work with. I have recently gained new members that the co-op member back, though!
-
