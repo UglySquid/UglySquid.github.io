@@ -61,6 +61,7 @@ One aspect that inspired me was certainly the impact he made and the pride he fe
 
 
 # Rocker Bogie
+Rocker-bogie is the name of a suspension system designed by NASA that allows all 6 wheels maintain contact with the ground. The rocker is the larger part of the system and rocks opposite to the chassis to ensure all wheels have contact to the ground. It is mounted to the chassis on either side. Both sides of the rocker are connected via a differential. The bogie is the smaller part of the system and drives the vehicle. 
 <figure class="slides-figure">
     <div class="slides-container">
         <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS7BUip7FhJC2jZf-Luqo20KV3PQ4UuN4hpb3MQlwK8lEBV9OCiWGzygpe3oUipUVPQFOKVuUS_DX7E/pubembed?start=false&loop=true&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
@@ -68,6 +69,7 @@ One aspect that inspired me was certainly the impact he made and the pride he fe
 </figure>
 
 # Differential bar
+This keeps the chassis/body of the rover level and ensures the rover doesn't tip over. 
 <figure class="slides-figure">
     <div class="slides-container">
         <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ6OH-yLD5cft8BNe2zsi1-qzr1ox-aoDD1GITyVW6b9hC72QjA3FDWv8kUcxTkUmxY3esyRnW_hDTR/pubembed?start=false&loop=true&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

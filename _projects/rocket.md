@@ -110,6 +110,8 @@ timeline: April 2026 - Present
     </p>
 </div>
 
+# THIS PROJECT IS ON PAUSE BECAUSE I HAVE NO MORE MONEY (WILL KEEP GOING ONCE I GET A JOB)
+
 # Motivation
 I started this project with a desire to build a rocket. I didn't want to build a model rocket kit or a typical rocket as my desire was to challenge myself. While looking at rocket videos online, I came across the concept of Thrust Vector Control rockets and a few channels that really solidified my desire to build one myself. 
 
@@ -364,3 +366,4 @@ This is the latest assembly, I forgot to take pictures of the last few unfortuna
 </table>
 
 I also need to deal with motor retention later, but I am still looking at OTS options and custom options that fit the designed motor mount. 
+
